@@ -7,7 +7,7 @@
 <h3>Array</h3>
 <h4>Binary Search</h4>
 <ul>
-<li>Minimum in array</li>
+<li>Searching in sorted array</li>
 <li>First and Last occurrence</li>
 <li>Peak Index in Mountain array</li>
 </ul>
