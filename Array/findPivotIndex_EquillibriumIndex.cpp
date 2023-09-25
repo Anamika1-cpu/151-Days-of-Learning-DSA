@@ -57,7 +57,7 @@ int pivot_index_method2(vector<int> &arr)
 
 int main()
 {
-    vector<int> arr;
+    vector<int> arr = {1, 7, 8, 6, 2};
     cout << "Pivot index/Equillibrium index is present at " << pivot_index_method2(arr) << endl;
 
     return 0;
