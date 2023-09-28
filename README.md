@@ -11,3 +11,7 @@
 <li>First and Last occurrence</li>
 <li>Peak Index in Mountain array</li>
 </ul>
+<h3>Two pointer</h3>
+<ul>
+<li></li>
+</ul>
