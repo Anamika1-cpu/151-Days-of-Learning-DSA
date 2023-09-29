@@ -13,5 +13,7 @@
 </ul>
 <h3>Two pointer</h3>
 <ul>
-<li></li>
+<li>Key-Pair/Two-Sum</li>
+<li>Move all negative to Left side</li>
+<li>Remove duplicates from sorted array</li>
 </ul>
