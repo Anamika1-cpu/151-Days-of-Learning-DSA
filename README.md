@@ -29,6 +29,5 @@
 <h4>2D Array</h4>
 <ul>
 <li>Transpose of an Array</li>
-
 </ul></ul>
 </ul>
