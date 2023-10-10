@@ -5,8 +5,9 @@ void transpose(int arr[][3], int row, int col)
 {
     for (int i = 0; i < row; i++)
     {
-        for (int j = 1; j < col; j++)
+        for (int j = i; j < col; j++)
         {
+            cout << arr[i][j] << " " << arr[j][i] << endl;
             swap(arr[i][j], arr[j][i]);
         }
     }
