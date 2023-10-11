@@ -29,5 +29,6 @@
 <h4>2D Array</h4>
 <ul>
 <li>Transpose of an Array</li>
+<li>Spiral Order of a 2D Array</li>
 </ul> </ul>
 </ul>
