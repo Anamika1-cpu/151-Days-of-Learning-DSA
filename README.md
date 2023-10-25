@@ -32,3 +32,8 @@
 <li>Spiral Order of a 2D Array</li>
 </ul> </ul>
 </ul>
+<ul>
+<h4>Recursion</h4>
+<li>Subsequences of a String</li>
+<li>Check Palindrome of a String</li>
+</ul>
