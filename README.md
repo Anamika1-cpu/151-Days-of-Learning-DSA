@@ -36,4 +36,5 @@
 <h4>Recursion</h4>
 <li>Subsequences of a String</li>
 <li>Check Palindrome of a String</li>
+<li>Remove all Occurrences of a SubString</li>
 </ul>
