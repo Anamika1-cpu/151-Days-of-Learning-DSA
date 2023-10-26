@@ -30,10 +30,9 @@
 <ul>
 <li>Transpose of an Array</li>
 <li>Spiral Order of a 2D Array</li>
-</ul> </ul>
 </ul>
-<ul>
 <h4>Recursion</h4>
 <li>Subsequences of a String</li>
 <li>Check Palindrome of a String</li>
+<li>Remove all Occurrences of a SubString</li>
 </ul>
