@@ -27,8 +27,8 @@ void removeOccurence(string &s, string &part)
 }
 int main()
 {
-    string s = "daabcbaabcbc";
-    string part = "abc";
+    string s = "hello, world, hello, universe";
+    string part = "hello";
     cout << "After removing all occurences from " << s << endl;
     removeOccurence(s, part);
     cout << "Left string is " << s << endl;
