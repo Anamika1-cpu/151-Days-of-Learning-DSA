@@ -16,6 +16,7 @@
 <li>Peak Index in Mountain array</li>
 <li>Count Zeroes</li>
 </ul>
+
 <h3>Two pointer</h3>
 <ul>
 <li>Key-Pair/Two-Sum</li>
