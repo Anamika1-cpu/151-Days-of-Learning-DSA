@@ -15,8 +15,9 @@
 <li>First and Last occurrence</li>
 <li>Peak Index in Mountain array</li>
 <li>Count Zeroes</li>
+<li>Searching element in rotated & sorted array</li>
+<li>Find Sqrt of a number</li>
 </ul>
-
 <h3>Two pointer</h3>
 <ul>
 <li>Key-Pair/Two-Sum</li>
@@ -30,6 +31,7 @@
 <h4>2D Array</h4>
 <ul>
 <li>Transpose of an Array</li>
+<li>Search in a Matrix</li>
 <li>Spiral Order of a 2D Array</li>
 </ul>
 <h4>Recursion</h4>
