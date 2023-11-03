@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// this is the brute force methos for finding the
-// distinct pairs, In this methos we are looping
+// this is the brute force method for finding the
+// distinct pairs, In this method we are looping
 // throught the vector and checking all the pairs that can be created
 // T.C - O(n^2)
 set<pair<int, int>> method1_BruteForce(vector<int> &nums, int k)
@@ -59,9 +59,8 @@ int method2_TwoPointer(vector<int> &nums, int k)
     return ans.size();
 }
 // function for binary search
-int binarySearch(vector<int> &nums, int start, int x)
+int binarySearch(vector<int> &nums, int s, int x)
 {
-    int s = 0;
     int e = nums.size() - 1;
     int mid = s + (e - s) / 2;
     while (s <= e)
@@ -84,7 +83,7 @@ int binarySearch(vector<int> &nums, int start, int x)
 }
 
 // In this method we are using the concept that nums[j]-nums[i] = k,
-// i.e, nums[j] = k + nums[i], I f we found the number k + nums[i]
+// i.e, nums[j] = k + nums[i], If we found the number k + nums[i]
 // in the vector, it means we found a pair. Here we are searching
 // the element using binary search
 int method3_BinarySearch(vector<int> &nums, int k)
