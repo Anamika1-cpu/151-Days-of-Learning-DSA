@@ -39,4 +39,7 @@
 <li>Check Palindrome of a String</li>
 <li>Remove all Occurrences of a SubString</li>
 
+<h4>Sorting</h4>
+<li>Bubble Sort</li>
+<li>Insertion sort</li>
 </ul>
