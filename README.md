@@ -17,6 +17,7 @@
 <li>Count Zeroes</li>
 <li>Searching element in rotated & sorted array</li>
 <li>Find Sqrt of a number</li>
+<li>Allocate minimum number of Pages</li>
 </ul>
 <h3>Two pointer</h3>
 <ul>
