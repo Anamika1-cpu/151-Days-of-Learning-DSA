@@ -46,3 +46,7 @@
 <li>Insertion sort</li>
 </ul>
 
+<h4>String</h4>
+<li>Minimum amount of time to collect garbage</li>
+<li>Book allocation problem</li>
+</ul>
