@@ -4,5 +4,6 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "*.tcc": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "enabled"
 }
