@@ -47,6 +47,7 @@
 </ul>
 
 <h4>String</h4>
+<li>Decode the message</li>
 <li>Minimum amount of time to collect garbage</li>
 <li>Book allocation problem</li>
-</ul>
+<li>Find and replace the</li></ul>
