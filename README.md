@@ -50,4 +50,4 @@
 <li>Decode the message</li>
 <li>Minimum amount of time to collect garbage</li>
 <li>Book allocation problem</li>
-<li>Find and replace the</li></ul>
+<li>Find and replace the pattern</li></ul>
