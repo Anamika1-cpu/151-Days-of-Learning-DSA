@@ -52,4 +52,6 @@
 <li>Book allocation problem</li>
 <li>Find and replace the pattern</li>
 <li>Longest Common Prefix</li>
+li>Reverse only letters</li>
+li>Valid Anagram</li>
 </ul>
