@@ -47,12 +47,17 @@
 </ul>
 
 <h4>String</h4>
+<li>Custom sort string</li>
 <li>Decode the message</li>
 <li>Minimum amount of time to collect garbage</li>
 <li>Book allocation problem</li>
+<li>Minimum Time Difference</li>
+<li>Remove all adjacent duplicates from string</li>
 <li>Find and replace the pattern</li>
 <li>Longest Common Prefix</li>
+<li>Palindromic Substring</li>
 <li>Reverse only letters</li>
 <li>Valid Anagram</li>
-
+<li>Reverse only vowels</li>
+<li>VAlid Palindrome remove atmost one char</li>
 </ul>
