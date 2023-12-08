@@ -1,41 +1,54 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
+int compressString(vector<char> &s)
 {
+    int index = 0;
+    int prev = s[0];
+    int count = 1;
 
-    char s[] = {'a',
-                'a',
-                'b',
-                'b',
-                'b',
-                'b',
-                'c',
-                'c',
-                'c'};
-    int n = 9;
-    vector<string> v;
-    vector<string> result;
-    string temp = "";
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i < s.size(); i++)
     {
-        temp += s[i];
-        if (i == n - 1 || s[i] != s[i + 1])
+        if (s[i] == prev)
         {
+            count++;
+        }
+        else
+        {
+            s[index++] = prev;
+            if (count > 1)
+            {
+                int start = index;
+                while (count)
+                {
 
-            v.push_back(temp);
-            temp = "";
+                    s[index++] = (count % 10) + '0';
+                    count /= 10;
+                }
+                reverse(s.begin() + start, s.begin() + index);
+            }
+            prev = s[i];
+            count = 1;
         }
     }
-    for (int i = 0; i < v.size(); i++)
+    s[index++] = prev;
+    if (count > 1)
     {
-        string a = "";
-        a = v[i][0] + to_string(v[i].size());
-        result.push_back(a);
+        int start = index;
+        while (count)
+        {
+
+            s[index++] = (count % 10) + '0';
+            count /= 10;
+        }
+        reverse(s.begin() + start, s.begin() + index);
     }
-    for (int i = 0; i < result.size(); i++)
-    {
-        cout << result[i] << endl;
-    }
+    return index;
+}
+int main()
+{
+    vector<char> s = {'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'};
+    cout << compressString(s);
+
     return 0;
 }

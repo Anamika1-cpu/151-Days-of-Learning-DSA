@@ -28,7 +28,7 @@ int myAtoi(string s)
         // This is the special case where we are checking that
         //  the input which is given is in range i.e.,it should
         //   be range of [-2^31, 2^31 - 1]
-        num = num * 10 + s[i] - '0';
+        num = num * 10 + (s[i] - '0');
         ++i;
     }
     return sign * num;
