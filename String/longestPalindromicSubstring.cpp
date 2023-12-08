@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// This is the function to check the string is palindromic or not
+// This is the function to check the string
+// is palindromic or not
 bool isPalindromic(string &s, int start, int end)
 {
     while (start < end)
@@ -28,7 +29,8 @@ string longestPalindromic(string s)
         for (int j = i; j < s.length(); j++)
         {
             // from these for loops we are finding all the substrings
-            if (isPalindromic(s, i, j)) // here we are checking for the palindromic
+            if (isPalindromic(s, i, j))
+            // here we are checking for the palindromic
             {
                 string longSubstring = s.substr(i, j - i + 1);
                 // here we are checking the size of string to find the longest one
