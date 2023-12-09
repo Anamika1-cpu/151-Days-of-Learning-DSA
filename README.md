@@ -60,4 +60,8 @@
 <li>Valid Anagram</li>
 <li>Reverse only vowels</li>
 <li>VAlid Palindrome remove atmost one char</li>
+<li>Zigzag Conversion</li>
+<li>String Compression</li>
+<li>String to Integer</li>
+<li>Integer to Roman</li>
 </ul>

@@ -5,12 +5,12 @@ string convert(string s, int numRows)
 {
     if (numRows == 1)
         return s;
-    vector<string> zigzag(numRows);
+    vector<string> zigzag(numRows);    // we are creating the zigzag vector for saving pattern of numRows size
     int i = 0, row = 0, direction = 1; // means moving from Top to Bottom
     while (true)
     {
         if (direction)
-        {
+        { // from this code we are filling the first numRows
             while (row < numRows && i < s.size())
             {
                 zigzag[row].push_back(s[i]);
@@ -20,7 +20,7 @@ string convert(string s, int numRows)
             row = numRows - 2;
         }
         else
-        {
+        { // here we are moving from bottom to top
             while (row >= 0 && i < s.size())
             {
                 zigzag[row].push_back(s[i]);
