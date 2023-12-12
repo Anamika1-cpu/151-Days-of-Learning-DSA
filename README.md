@@ -64,4 +64,5 @@
 <li>String Compression</li>
 <li>String to Integer</li>
 <li>Integer to Roman</li>
+<li>Reorganize a String</li>
 </ul>
