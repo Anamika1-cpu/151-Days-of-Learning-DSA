@@ -55,6 +55,7 @@ int lengthOfLinkedList(Node *head)
     }
     return length;
 }
+
 int getMiddle(Node *head)
 {
     int length = lengthOfLinkedList(head);
