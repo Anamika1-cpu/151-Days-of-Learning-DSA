@@ -59,6 +59,19 @@ void printLL(Node *head)
     }
     cout << "\n";
 }
+void deleteNode(Node *del)
+{
+    // if the node which is being deleted is the last node
+    if (del->next == NULL)
+    {
+        del = NULL;
+        return;
+    }
+    // what we are doing here is that
+    // copying the data from the next data to the previous node
+    del->data = del->next->data;
+    del->next = del->next->next;
+}
 
 int main()
 {
@@ -69,6 +82,9 @@ int main()
     insertAtTail(head, tail, 5);
     insertAtHead(head, tail, 11);
     insertAtHead(head, tail, 3);
+    printLL(head);
+    Node *todel = head->next;
+    deleteNode(todel);
     printLL(head);
     return 0;
 }
