@@ -3,7 +3,8 @@
         "*.ejs": "html",
         "iostream": "cpp",
         "ostream": "cpp",
-        "*.tcc": "cpp"
+        "*.tcc": "cpp",
+        "new": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
