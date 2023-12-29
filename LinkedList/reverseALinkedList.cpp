@@ -45,34 +45,37 @@ void printLL(Node *head)
     cout << "\n";
 }
 
-void reverseLL(Node *&head)
-{ // iterative method
-    Node *prev = NULL;
-    Node *curr = head;
-
-    while (curr != NULL)
-    {
-        Node *nextNode = curr->next;
-        curr->next = prev;
-        prev = curr;
-        curr = nextNode;
-    }
-    head = prev;
-}
 // recursive method
-void RecreverseLL(Node *&prev, Node *curr)
+
+Node *RecreverseLL(Node *prev, Node *curr)
 {
     if (curr == NULL)
     {
-        return;
+        return prev;
     }
     Node *nextNode = curr->next;
     curr->next = prev;
     prev = curr;
     curr = nextNode;
     // recursion
-    RecreverseLL(prev, curr);
+    return RecreverseLL(prev, curr);
 }
+
+Node *reverseLL(Node *&head)
+{ // iterative method
+    Node *prev = NULL;
+    Node *curr = head;
+    return RecreverseLL(prev, curr);
+    // while (curr != NULL)
+    // {
+    //     Node *nextNode = curr->next;
+    //     curr->next = prev;
+    //     prev = curr;
+    //     curr = nextNode;
+    // }
+    // head = prev;
+}
+
 int main()
 {
     Node *head = NULL;
@@ -81,7 +84,9 @@ int main()
     insertAtHead(head, 3);
     cout << "Original Linked List: " << endl;
     printLL(head);
-    reverseLL(head);
+    Node *prev = NULL;
+    Node *curr = head;
+    head = reverseLL(head);
     cout << " Linked List after reversing: " << endl;
     printLL(head);
     return 0;
