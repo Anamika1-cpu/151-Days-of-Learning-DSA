@@ -50,7 +50,7 @@ bool checkPalindrome(Node *head)
         return false;
     }
 }
-// totoise method/ fast-slow pointer approach
+// tortoise method/ fast-slow pointer approach
 Node *findMidNode(Node *head)
 {
     Node *slow = head;
