@@ -37,7 +37,7 @@ void makeCycle(Node *&head, int pos)
     temp->next = startNode; // Set the last node to point back to the starting node
 }
 
-bool detectLoop(Node *head)
+Node *getStartingPoint(Node *head)
 {
     Node *slow = head;
     Node *fast = head;
@@ -51,19 +51,18 @@ bool detectLoop(Node *head)
         }
         if (fast == slow)
         {
-            return true;
+            break;
         }
     }
-    return false;
-}
-void prinLinkedList(Node *head)
-{
-    Node *temp = head;
-    while (temp != NULL)
+    if (fast == NULL)
+        return NULL;
+    slow = head;
+    while (slow != fast)
     {
-        cout << temp->data << "->";
-        temp = temp->next;
+        slow = slow->next;
+        fast = fast->next;
     }
+    return slow;
 }
 int main()
 {
@@ -71,7 +70,7 @@ int main()
     head->data = 1;
 
     head->next = new Node();
-    head->next->data = 2;
+    head->next->data = 20;
 
     head->next->next = new Node();
     head->next->next->data = 3;
@@ -83,15 +82,7 @@ int main()
     head->next->next->next->next->data = 5;
 
     makeCycle(head, 2); // Creating a loop at position 2
-    prinLinkedList(head);
-    bool ans = detectLoop(head);
-    if (ans == false)
-    {
-        cout << "Cycle is not present in LL" << endl;
-    }
-    else
-    {
-        cout << "Cycle is present in LL" << endl;
-    }
+    Node *ans = getStartingPoint(head);
+    cout << "Staring point of Loop is " << ans->data << endl;
     return 0;
 }
