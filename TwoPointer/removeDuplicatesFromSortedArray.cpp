@@ -21,9 +21,9 @@ int remove_Duplicates(vector<int> &arr)
     return j + 1;
 }
 
-// Here, we are using 2 pointer approach for soving this
+// Here, we are using 2 pointer approach for solving this
 // problem, what we are doing here is moving all the unique
-// elements and front.
+// elements in front.
 
 int main()
 {

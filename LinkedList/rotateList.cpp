@@ -40,13 +40,15 @@ int getLength(Node *head)
 }
 Node *rotateRight(Node *head, int k)
 {
+    if (!head)
+        return NULL;
     int len = getLength(head);
     if (k == 0)
         return head;
     int actualRotateK = (k % len);
     if (actualRotateK == 0)
     {
-        return NULL;
+        return head;
     }
     int newLastNodePos = len - actualRotateK - 1;
     Node *newLastNode = head;
@@ -84,8 +86,9 @@ int main()
     cout << "Original LinkedList " << endl;
     prinLinkedList(head);
     cout << endl;
-    cout << "LinkedList after insertion" << endl;
-
-    prinLinkedList(head);
+    int k = 3;
+    cout << "LinkedList after rotating by " << k << " elements" << endl;
+    Node *newhead = rotateRight(head, k);
+    prinLinkedList(newhead);
     return 0;
 }

@@ -8,6 +8,7 @@
 <li>Find duplicate Number</li>
 <li>Find Pivot Index/Equillibrium Index</li>
 <li>Missing Number in Array</li>
+<li>Rotate Array by k elements</li>
 <li>Sort 012 (Dutch National Flag Problem)</li>
 <h4>Binary Search</h4>
 <ul>

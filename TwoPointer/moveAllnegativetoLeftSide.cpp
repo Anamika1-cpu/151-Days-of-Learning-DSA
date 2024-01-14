@@ -7,10 +7,12 @@ void moveToNegative(int a[], int n)
     int h = n - 1;
     while (l < h)
     {
+        // if negative number is already in left
         if (a[l] < 0)
         {
             l++;
         }
+        // if positive number is already in left
         else if (a[h] > 0)
         {
             h--;

@@ -29,8 +29,6 @@ void prinLinkedList(Node *head)
 }
 Node *segregate(Node *head)
 {
-
-    // Add code here
     Node *temp = head;
     int one = 0, two = 0, zero = 0;
     while (temp != NULL)

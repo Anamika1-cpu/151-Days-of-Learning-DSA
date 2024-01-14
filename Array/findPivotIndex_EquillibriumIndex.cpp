@@ -23,7 +23,7 @@ int pivot_index_method1(vector<int> &arr)
     }
     return -1;
 }
-// In this method, the time complexity is O(n^2)
+// In this method, the time complexity is O(n^ 2)
 // because there are two loops(one within the other)
 
 int pivot_index_method2(vector<int> &arr)

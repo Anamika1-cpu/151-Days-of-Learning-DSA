@@ -36,7 +36,7 @@ int method2_NegMarking(vector<int> &v)
     return ans;
 }
 // this method is knwon as Negative marking method because
-// int this method we are marking the index's value(i.e., v[index])
+// in this method we are marking the index's value(i.e., v[index])
 // as negative to keep a track of that value and chacking if we are
 // finding any negative value in iteration, this means that was
 // the duplicated element
