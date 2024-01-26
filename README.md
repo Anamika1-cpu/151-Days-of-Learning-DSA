@@ -68,5 +68,36 @@
 <li>Largest Number</li>
 </ul>
 <h3>Linked List</h3>
+<ul>
+<li>Linked List Insertion</li>
+<li>Insert in Sorted Linked List</li>
+<li>Intersection of 2 Linked List</li>
+<li>LL Palindrome Check</li>
+<li>Merge 2 sorted Linked lists</li>
+<li>Nth Node from end of LL</li>
+<li>Add 1 in Linked List</li>
+<li>Odd Even LL</li>
+<li>Swapping the nodes in LL</li>
+<li>Copy LL through Random pointer</li>
+<li>Delete N nodes After M nodes</li>
+<li>Delete Node without Head pointer</li>
+<li>Deletion of nth Node</li>
+<li>Remove Duplicates from LL</li>
+<li>Detect Loop in LL</li>
+<li>Get starting point of Loop</li>
+<li>Remove Loop in LL</li>
+<li>Reverse the LL</li>
+<li>Rotate the LL</li>
+<li>Sort LL containing 0,1 and 2's</li>
+<li>Sort LL using Merge Sort</li>
+<li>Double a number represent by LL</li>
+<li>Find middle element of Linked List</li>
+<li>Find min and max b/w critical points of Linked List</li>
+<li>Flattening a Linked List</li>
+</ul>
 
-
+<h3>Stack</h3>
+<li>Creating stack using Array</li>
+<li>Insertion at Bottom in Stack</li>
+<li>Finding Middle element in Stack</li>
+<li>Deleting Middle element in Stack</li>
