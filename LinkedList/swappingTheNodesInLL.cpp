@@ -48,14 +48,15 @@ Node *swapNodes(Node *head, int k)
     Node *temp2 = head;
 
     int i = 1;
+    // saving the kth node from start
     while (i < k)
     {
         temp1 = temp1->next;
         i++;
     }
     Node *curr1 = temp1;
-
     i = 1;
+    // saving the kth node from end
     while (i < end)
     {
         temp2 = temp2->next;
