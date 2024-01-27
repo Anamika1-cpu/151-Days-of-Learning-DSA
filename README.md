@@ -97,7 +97,11 @@
 </ul>
 
 <h3>Stack</h3>
+<ul>
 <li>Creating stack using Array</li>
 <li>Insertion at Bottom in Stack</li>
 <li>Finding Middle element in Stack</li>
 <li>Deleting Middle element in Stack</li>
+<li>Reverse the Stack</li>
+</ul>
+
