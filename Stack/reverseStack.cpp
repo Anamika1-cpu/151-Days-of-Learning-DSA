@@ -20,17 +20,6 @@ stack<int> insertAtBottom(stack<int> &st, int data)
     st.push(temp);
     return st;
 }
-void printStack(stack<int> &st)
-{
-    stack<int> temp = st;
-    while (!temp.empty())
-    {
-        cout << temp.top() << " ";
-        temp.pop();
-    }
-    cout << endl
-         << endl;
-}
 stack<int> Reverse(stack<int> &st)
 {
     if (st.size() == 0)
@@ -41,6 +30,17 @@ stack<int> Reverse(stack<int> &st)
     st.pop();
     Reverse(st);
     return insertAtBottom(st, temp);
+}
+void printStack(stack<int> &st)
+{
+    stack<int> temp = st;
+    while (!temp.empty())
+    {
+        cout << temp.top() << " ";
+        temp.pop();
+    }
+    cout << endl
+         << endl;
 }
 int main()
 {

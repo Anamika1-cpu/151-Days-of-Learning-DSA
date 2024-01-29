@@ -103,5 +103,7 @@
 <li>Finding Middle element in Stack</li>
 <li>Deleting Middle element in Stack</li>
 <li>Reverse the Stack</li>
+<li>Insert element in sorted Stack</li>
+<li>Sort a Stack</li>
 </ul>
 
