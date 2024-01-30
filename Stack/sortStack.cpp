@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-/*Our idea to create function which is inserting
+/*Our idea to create helper function which is inserting
 element in sorted stack is that we will pop the
 elements of the stack if we find the element which is to
 be inserted is less than the stack top element, and if

@@ -105,5 +105,6 @@
 <li>Reverse the Stack</li>
 <li>Insert element in sorted Stack</li>
 <li>Sort a Stack</li>
+<li>Get minimum element from the Stack</li>
 </ul>
 
