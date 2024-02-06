@@ -108,5 +108,6 @@
 <li>Get minimum element from the Stack</li>
 <li>Implementation of 2 stacks from Array</li>
 <li>Valid Parentheses</li>
+<li>Expression contains redundant bracket or not</li>
 </ul>
 
