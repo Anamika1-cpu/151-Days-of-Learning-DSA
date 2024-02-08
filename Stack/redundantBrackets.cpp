@@ -3,7 +3,6 @@ using namespace std;
 
 bool checkRedundancy(string s)
 {
-    // code here
     stack<char> st;
     for (int i = 0; i < s.length(); i++)
     {
@@ -47,12 +46,10 @@ int main()
     if (ans == false)
     {
         cout << "Redundant brackets are not present" << endl;
-        cout << endl;
     }
     else
     {
         cout << "Redundant brackets are present" << endl;
-        cout << endl;
     }
     return 0;
 }
