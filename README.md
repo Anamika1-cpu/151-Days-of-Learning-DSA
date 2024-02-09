@@ -110,5 +110,6 @@
 <li>Valid Parentheses</li>
 <li>Expression contains redundant bracket or not</li>
 <li>Min Stack</li>
+<li>Next Smaller Element</li>
 </ul>
 
