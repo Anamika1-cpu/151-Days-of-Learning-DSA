@@ -111,5 +111,6 @@
 <li>Expression contains redundant bracket or not</li>
 <li>Min Stack</li>
 <li>Next Smaller Element</li>
+<li>Largest Area in Histogram</li>
 </ul>
 
