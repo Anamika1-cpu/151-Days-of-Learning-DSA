@@ -114,3 +114,9 @@
 <li>Largest Area in Histogram</li>
 </ul>
 
+
+<h3>Stack</h3>
+<ol>
+<li>Implementation of Queue using Array</li>
+</ol>
+
