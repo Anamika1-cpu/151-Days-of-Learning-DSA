@@ -115,7 +115,7 @@
 </ul>
 
 
-<h3>Stack</h3>
+<h3>Queue</h3>
 <ol>
 <li>Implementation of Queue using Array</li>
 </ol>
