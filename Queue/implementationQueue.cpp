@@ -19,7 +19,6 @@ public:
     }
     int pop()
     {
-
         if (front == rear)
         {
             // empty

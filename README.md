@@ -118,5 +118,6 @@
 <h3>Queue</h3>
 <ol>
 <li>Implementation of Queue using Array</li>
+<li>Reverse A Queue</li>
 </ol>
 
