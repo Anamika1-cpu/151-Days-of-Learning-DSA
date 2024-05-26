@@ -1,16 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void reverseQueue(queue<int> &q)
+queue<int> reverseQueue(queue<int> &q)
 {
     stack<int> s;
 
     // one by one insert element in stack from queue
     while (!q.empty())
     {
-        int fron_elememt = q.front();
+        int front_elememt = q.front();
         q.pop();
-        s.push(fron_elememt); // insert
+        s.push(front_elememt); // insert
     }
 
     // add element in queue one by one from stack
@@ -20,6 +20,7 @@ void reverseQueue(queue<int> &q)
         s.pop();
         q.push(element);
     }
+    return q;
 }
 
 void printq(queue<int> &q)
@@ -34,15 +35,18 @@ void printq(queue<int> &q)
 }
 int main()
 {
-    queue<int> q;
-    q.push(10);
-    q.push(20);
-    q.push(30);
-    q.push(40);
-    q.push(50);
-    q.push(60);
+    queue<int> qu;
+    qu.push(10);
+    qu.push(20);
+    qu.push(30);
+    qu.push(40);
+    qu.push(50);
+    qu.push(60);
+    queue<int> originalQueue = qu;
+    cout << "Queue before reversing " << endl;
+    printq(originalQueue);
     cout << "Queue after reversing " << endl;
-    reverseQueue(q);
-    printq(q);
+    queue<int> revq = reverseQueue(qu);
+    printq(revq);
     return 0;
 }

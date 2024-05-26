@@ -119,5 +119,6 @@
 <ol>
 <li>Implementation of Queue using Array</li>
 <li>Reverse A Queue</li>
+<li>Reverse k elements in Queue</li>
 </ol>
 
