@@ -1,425 +1,458 @@
-order_details_id	order_id	pizza_id	quantity	order_date	order_time	unit_price	total_price	pizza_size	pizza_category	pizza_ingredients	pizza_name		
-1	1	hawaiian_m	1	01/01/2015	11:38:36	13.25	13.25	M	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-2	2	classic_dlx_m	1	01/01/2015	11:57:40	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-3	2	five_cheese_l	1	01/01/2015	11:57:40	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza		
-4	2	ital_supr_l	1	01/01/2015	11:57:40	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-5	2	mexicana_m	1	01/01/2015	11:57:40	16	16	M	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza		
-6	2	thai_ckn_l	1	01/01/2015	11:57:40	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-7	3	ital_supr_m	1	01/01/2015	12:12:28	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-8	3	prsc_argla_l	1	01/01/2015	12:12:28	20.75	20.75	L	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza		
-9	4	ital_supr_m	1	01/01/2015	12:16:31	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-10	5	ital_supr_m	1	01/01/2015	12:21:30	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-11	6	bbq_ckn_s	1	01/01/2015	12:29:36	12.75	12.75	S	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-12	6	the_greek_s	1	01/01/2015	12:29:36	12	12	S	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza		
-13	7	spinach_supr_s	1	01/01/2015	12:50:37	12.5	12.5	S	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza		
-14	8	spinach_supr_s	1	01/01/2015	12:51:37	12.5	12.5	S	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza		
-15	9	classic_dlx_s	1	01/01/2015	12:52:01	12	12	S	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-16	9	green_garden_s	1	01/01/2015	12:52:01	12	12	S	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza		
-17	9	ital_cpcllo_l	1	01/01/2015	12:52:01	20.5	20.5	L	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-18	9	ital_supr_l	1	01/01/2015	12:52:01	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-19	9	ital_supr_s	1	01/01/2015	12:52:01	12.5	12.5	S	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-20	9	mexicana_s	1	01/01/2015	12:52:01	12	12	S	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza		
-21	9	spicy_ital_l	1	01/01/2015	12:52:01	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-22	9	spin_pesto_l	1	01/01/2015	12:52:01	20.75	20.75	L	Veggie	Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce	The Spinach Pesto Pizza		
-23	9	veggie_veg_s	1	01/01/2015	12:52:01	12	12	S	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza		
-24	10	mexicana_l	1	01/01/2015	13:00:15	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza		
-25	10	southw_ckn_l	1	01/01/2015	13:00:15	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza		
-26	11	bbq_ckn_l	1	01/01/2015	13:02:59	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-27	11	cali_ckn_l	1	01/01/2015	13:02:59	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-28	11	cali_ckn_m	1	01/01/2015	13:02:59	16.75	16.75	M	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-29	11	pepperoni_l	1	01/01/2015	13:02:59	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-30	12	cali_ckn_l	1	01/01/2015	13:04:41	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-31	12	cali_ckn_s	1	01/01/2015	13:04:41	12.75	12.75	S	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-32	12	ckn_pesto_l	1	01/01/2015	13:04:41	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce	The Chicken Pesto Pizza		
-33	12	ital_supr_m	1	01/01/2015	13:04:41	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-34	13	mexicana_l	1	01/01/2015	13:11:55	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza		
-35	14	the_greek_s	1	01/01/2015	13:14:19	12	12	S	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza		
-36	15	big_meat_s	1	01/01/2015	13:33	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-37	15	five_cheese_l	1	01/01/2015	13:33	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza		
-38	15	soppressata_l	1	01/01/2015	13:33	20.75	20.75	L	Supreme	Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic	The Soppressata Pizza		
-39	15	the_greek_s	1	01/01/2015	13:33	12	12	S	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza		
-40	16	four_cheese_l	1	01/01/2015	13:34:07	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza		
-41	16	napolitana_s	1	01/01/2015	13:34:07	12	12	S	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza		
-42	16	thai_ckn_l	1	01/01/2015	13:34:07	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-43	17	bbq_ckn_l	1	01/01/2015	13:53	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-44	17	calabrese_m	1	01/01/2015	13:53	16.25	16.25	M	Supreme	慛duja Salami, Pancetta, Tomatoes, Red Onions, Friggitello Peppers, Garlic	The Calabrese Pizza		
-45	17	five_cheese_l	1	01/01/2015	13:53	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza		
-46	17	four_cheese_m	1	01/01/2015	13:53	14.75	14.75	M	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza		
-47	17	ital_supr_m	1	01/01/2015	13:53	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-48	17	ital_veggie_s	1	01/01/2015	13:53	12.75	12.75	S	Veggie	Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce	The Italian Vegetables Pizza		
-49	17	mediterraneo_m	2	01/01/2015	13:53	16	32	M	Veggie	Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions	The Mediterranean Pizza		
-50	17	mexicana_l	1	01/01/2015	13:53	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza		
-51	17	peppr_salami_s	1	01/01/2015	13:53	12.5	12.5	S	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza		
-52	17	spinach_fet_l	1	01/01/2015	13:53	20.25	20.25	L	Veggie	Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic	The Spinach and Feta Pizza		
-53	18	napolitana_l	1	01/01/2015	13:57:08	20.5	20.5	L	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza		
-54	19	ital_cpcllo_l	1	01/01/2015	13:59:09	20.5	20.5	L	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-55	19	sicilian_l	1	01/01/2015	13:59:09	20.25	20.25	L	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza		
-56	20	big_meat_s	1	01/01/2015	14:03:08	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-57	20	five_cheese_l	1	01/01/2015	14:03:08	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza		
-58	21	ital_cpcllo_l	1	01/01/2015	14:14:29	20.5	20.5	L	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-59	22	five_cheese_l	1	01/01/2015	14:16:26	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza		
-60	22	ital_cpcllo_m	1	01/01/2015	14:16:26	16	16	M	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-61	22	southw_ckn_l	1	01/01/2015	14:16:26	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza		
-62	23	southw_ckn_s	1	01/01/2015	14:19:03	12.75	12.75	S	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza		
-63	24	bbq_ckn_m	1	01/01/2015	14:23:01	16.75	16.75	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-64	24	ital_cpcllo_m	1	01/01/2015	14:23:01	16	16	M	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-65	24	pepperoni_m	1	01/01/2015	14:23:01	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-66	24	prsc_argla_s	1	01/01/2015	14:23:01	12.5	12.5	S	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza		
-67	25	sicilian_m	1	01/01/2015	14:44:44	16.25	16.25	M	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza		
-68	25	thai_ckn_l	1	01/01/2015	14:44:44	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-69	26	classic_dlx_s	1	01/01/2015	14:54:26	12	12	S	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-70	26	veggie_veg_l	1	01/01/2015	14:54:26	20.25	20.25	L	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza		
-71	27	bbq_ckn_l	1	01/01/2015	15:11:17	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-72	27	classic_dlx_m	1	01/01/2015	15:11:17	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-73	27	spinach_fet_l	1	01/01/2015	15:11:17	20.25	20.25	L	Veggie	Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic	The Spinach and Feta Pizza		
-74	28	ckn_alfredo_s	1	01/01/2015	15:35:46	12.75	12.75	S	Chicken	Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce	The Chicken Alfredo Pizza		
-75	29	green_garden_s	1	01/01/2015	15:41:01	12	12	S	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza		
-76	30	thai_ckn_l	1	01/01/2015	15:41:25	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-77	31	mexicana_m	1	01/01/2015	15:50:18	16	16	M	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza		
-78	31	pepperoni_s	1	01/01/2015	15:50:18	9.75	9.75	S	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-79	32	big_meat_s	1	01/01/2015	15:53:18	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-80	32	green_garden_l	1	01/01/2015	15:53:18	20.25	20.25	L	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza		
-81	32	ital_cpcllo_l	1	01/01/2015	15:53:18	20.5	20.5	L	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-82	32	ital_supr_m	1	01/01/2015	15:53:18	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-83	33	bbq_ckn_l	1	01/01/2015	15:54:08	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-84	33	green_garden_s	1	01/01/2015	15:54:08	12	12	S	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza		
-85	34	the_greek_s	1	01/01/2015	16:21:21	12	12	S	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza		
-86	35	green_garden_m	1	01/01/2015	16:32:04	16	16	M	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza		
-87	35	pep_msh_pep_l	1	01/01/2015	16:32:04	17.5	17.5	L	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza		
-88	35	pepperoni_m	1	01/01/2015	16:32:04	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-89	35	thai_ckn_l	1	01/01/2015	16:32:04	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-90	36	bbq_ckn_m	1	01/01/2015	16:54:09	16.75	16.75	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-91	36	classic_dlx_m	1	01/01/2015	16:54:09	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-92	37	ital_supr_l	1	01/01/2015	16:56:09	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-93	37	mexicana_l	1	01/01/2015	16:56:09	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza		
-94	38	hawaiian_s	1	01/01/2015	17:03	10.5	10.5	S	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-95	38	ital_cpcllo_l	1	01/01/2015	17:03	20.5	20.5	L	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-96	39	ital_supr_l	1	01/01/2015	17:07:23	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-97	40	four_cheese_l	1	01/01/2015	17:14:36	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza		
-98	40	southw_ckn_s	1	01/01/2015	17:14:36	12.75	12.75	S	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza		
-99	41	four_cheese_m	1	01/01/2015	17:15:20	14.75	14.75	M	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza		
-100	41	green_garden_s	1	01/01/2015	17:15:20	12	12	S	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza		
-101	42	big_meat_s	1	01/01/2015	17:28:09	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-102	42	five_cheese_l	1	01/01/2015	17:28:09	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza		
-103	42	mexicana_l	1	01/01/2015	17:28:09	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza		
-104	42	peppr_salami_m	1	01/01/2015	17:28:09	16.5	16.5	M	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza		
-105	43	ckn_alfredo_m	1	01/01/2015	17:38:34	16.75	16.75	M	Chicken	Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce	The Chicken Alfredo Pizza		
-106	43	ital_supr_m	1	01/01/2015	17:38:34	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-107	43	peppr_salami_l	1	01/01/2015	17:38:34	20.75	20.75	L	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza		
-108	44	spin_pesto_s	1	01/01/2015	17:54:20	12.5	12.5	S	Veggie	Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce	The Spinach Pesto Pizza		
-109	45	four_cheese_l	1	01/01/2015	17:55:48	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza		
-110	45	hawaiian_s	1	01/01/2015	17:55:48	10.5	10.5	S	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-111	45	thai_ckn_m	1	01/01/2015	17:55:48	16.75	16.75	M	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-112	46	ckn_pesto_l	1	01/01/2015	18:25:51	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce	The Chicken Pesto Pizza		
-113	46	classic_dlx_l	1	01/01/2015	18:25:51	20.5	20.5	L	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-114	46	thai_ckn_m	1	01/01/2015	18:25:51	16.75	16.75	M	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-115	47	southw_ckn_l	1	01/01/2015	18:26:34	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza		
-116	47	veggie_veg_s	1	01/01/2015	18:26:34	12	12	S	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza		
-117	48	ckn_pesto_m	1	01/01/2015	18:26:42	16.75	16.75	M	Chicken	Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce	The Chicken Pesto Pizza		
-118	48	green_garden_s	1	01/01/2015	18:26:42	12	12	S	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza		
-119	48	prsc_argla_l	1	01/01/2015	18:26:42	20.75	20.75	L	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza		
-120	48	spicy_ital_l	1	01/01/2015	18:26:42	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-121	49	sicilian_l	1	01/01/2015	18:33	20.25	20.25	L	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza		
-122	50	the_greek_xl	1	01/01/2015	18:41:01	25.5	25.5	XL	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza		
-123	51	bbq_ckn_l	1	01/01/2015	18:48:28	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-124	51	pep_msh_pep_l	1	01/01/2015	18:48:28	17.5	17.5	L	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza		
-125	52	hawaiian_l	1	01/01/2015	18:53:02	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-126	52	mexicana_l	1	01/01/2015	18:53:02	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza		
-127	52	spicy_ital_l	1	01/01/2015	18:53:02	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-128	53	pep_msh_pep_s	1	01/01/2015	18:54:17	11	11	S	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza		
-129	53	spinach_supr_m	1	01/01/2015	18:54:17	16.5	16.5	M	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza		
-130	54	prsc_argla_m	1	01/01/2015	19:01:45	16.5	16.5	M	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza		
-131	54	thai_ckn_l	1	01/01/2015	19:01:45	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-132	55	peppr_salami_s	1	01/01/2015	19:03:19	12.5	12.5	S	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza		
-133	55	spicy_ital_l	1	01/01/2015	19:03:19	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-134	56	classic_dlx_m	1	01/01/2015	19:07	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-135	56	mediterraneo_l	1	01/01/2015	19:07	20.25	20.25	L	Veggie	Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions	The Mediterranean Pizza		
-136	56	southw_ckn_m	1	01/01/2015	19:07	16.75	16.75	M	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza		
-137	57	classic_dlx_m	1	01/01/2015	19:10:51	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-138	58	five_cheese_l	1	01/01/2015	19:30:40	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza		
-139	58	pepperoni_m	1	01/01/2015	19:30:40	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-140	59	ital_veggie_s	1	01/01/2015	19:40:08	12.75	12.75	S	Veggie	Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce	The Italian Vegetables Pizza		
-141	59	pep_msh_pep_s	1	01/01/2015	19:40:08	11	11	S	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza		
-142	59	pepperoni_l	1	01/01/2015	19:40:08	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-143	60	ckn_pesto_l	1	01/01/2015	20:05:16	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce	The Chicken Pesto Pizza		
-144	60	four_cheese_m	1	01/01/2015	20:05:16	14.75	14.75	M	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza		
-145	61	bbq_ckn_m	1	01/01/2015	20:08:43	16.75	16.75	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-146	61	ital_supr_l	1	01/01/2015	20:08:43	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-147	62	bbq_ckn_m	1	01/01/2015	20:50:16	16.75	16.75	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-148	62	spinach_supr_m	1	01/01/2015	20:50:16	16.5	16.5	M	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza		
-149	63	pep_msh_pep_m	1	01/01/2015	20:51:42	14.5	14.5	M	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza		
-150	64	big_meat_s	1	01/01/2015	20:52:08	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-151	65	pep_msh_pep_s	1	01/01/2015	21:16	11	11	S	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza		
-152	65	sicilian_s	1	01/01/2015	21:16	12.25	12.25	S	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza		
-153	65	spicy_ital_s	1	01/01/2015	21:16	12.5	12.5	S	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-154	65	spinach_supr_m	1	01/01/2015	21:16	16.5	16.5	M	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza		
-155	66	classic_dlx_m	1	01/01/2015	21:47:55	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-156	66	ital_cpcllo_m	1	01/01/2015	21:47:55	16	16	M	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-157	67	southw_ckn_l	1	01/01/2015	22:03:40	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza		
-158	68	classic_dlx_m	1	01/01/2015	22:07:32	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-159	68	ital_supr_l	1	01/01/2015	22:07:32	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-160	68	ital_supr_m	1	01/01/2015	22:07:32	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-161	69	bbq_ckn_l	1	01/01/2015	22:12:13	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-162	70	ital_veggie_s	1	01/02/2015	11:38:51	12.75	12.75	S	Veggie	Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce	The Italian Vegetables Pizza		
-163	70	soppressata_l	1	01/02/2015	11:38:51	20.75	20.75	L	Supreme	Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic	The Soppressata Pizza		
-164	71	thai_ckn_l	1	01/02/2015	11:40:50	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-165	72	spinach_fet_l	1	01/02/2015	11:57:25	20.25	20.25	L	Veggie	Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic	The Spinach and Feta Pizza		
-166	73	thai_ckn_s	1	01/02/2015	11:58:56	12.75	12.75	S	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-167	74	five_cheese_l	1	01/02/2015	12:01:12	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza		
-168	74	mexicana_l	1	01/02/2015	12:01:12	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza		
-169	74	spin_pesto_s	1	01/02/2015	12:01:12	12.5	12.5	S	Veggie	Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce	The Spinach Pesto Pizza		
-170	74	spinach_supr_l	1	01/02/2015	12:01:12	20.75	20.75	L	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza		
-171	75	ital_supr_s	1	01/02/2015	12:10:15	12.5	12.5	S	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-172	75	mediterraneo_l	1	01/02/2015	12:10:15	20.25	20.25	L	Veggie	Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions	The Mediterranean Pizza		
-173	75	napolitana_l	1	01/02/2015	12:10:15	20.5	20.5	L	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza		
-174	76	big_meat_s	1	01/02/2015	12:21:17	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-175	76	hawaiian_l	1	01/02/2015	12:21:17	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-176	76	ital_veggie_l	1	01/02/2015	12:21:17	21	21	L	Veggie	Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce	The Italian Vegetables Pizza		
-177	76	spicy_ital_l	1	01/02/2015	12:21:17	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-178	77	bbq_ckn_m	1	01/02/2015	12:22:46	16.75	16.75	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-179	77	hawaiian_m	1	01/02/2015	12:22:46	13.25	13.25	M	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-180	78	big_meat_s	1	01/02/2015	12:28:14	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-181	78	classic_dlx_s	1	01/02/2015	12:28:14	12	12	S	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-182	78	four_cheese_l	1	01/02/2015	12:28:14	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza		
-183	78	ital_cpcllo_m	1	01/02/2015	12:28:14	16	16	M	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-184	78	spicy_ital_l	3	01/02/2015	12:28:14	20.75	62.25	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-185	78	thai_ckn_s	1	01/02/2015	12:28:14	12.75	12.75	S	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-186	79	ital_cpcllo_l	1	01/02/2015	12:29:11	20.5	20.5	L	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-187	79	pep_msh_pep_s	1	01/02/2015	12:29:11	11	11	S	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza		
-188	79	thai_ckn_l	1	01/02/2015	12:29:11	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-189	80	pepperoni_s	1	01/02/2015	12:35:38	9.75	9.75	S	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-190	80	thai_ckn_m	1	01/02/2015	12:35:38	16.75	16.75	M	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-191	81	thai_ckn_l	1	01/02/2015	12:40:01	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-192	82	big_meat_s	1	01/02/2015	12:45:51	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-193	82	cali_ckn_m	1	01/02/2015	12:45:51	16.75	16.75	M	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-194	82	spicy_ital_l	1	01/02/2015	12:45:51	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-195	82	veggie_veg_m	1	01/02/2015	12:45:51	16	16	M	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza		
-196	83	southw_ckn_s	1	01/02/2015	12:53:27	12.75	12.75	S	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza		
-197	84	pepperoni_l	1	01/02/2015	13:13:41	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-198	85	classic_dlx_m	1	01/02/2015	13:34:49	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-199	85	classic_dlx_s	1	01/02/2015	13:34:49	12	12	S	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-200	85	ital_supr_l	1	01/02/2015	13:34:49	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-201	85	the_greek_m	1	01/02/2015	13:34:49	16	16	M	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza		
-202	86	hawaiian_l	1	01/02/2015	13:40:31	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-203	87	ital_cpcllo_m	1	01/02/2015	14:01:02	16	16	M	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-204	87	mexicana_m	1	01/02/2015	14:01:02	16	16	M	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza		
-205	87	spinach_supr_l	1	01/02/2015	14:01:02	20.75	20.75	L	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza		
-206	87	spinach_supr_s	1	01/02/2015	14:01:02	12.5	12.5	S	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza		
-207	88	five_cheese_l	1	01/02/2015	14:10:08	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza		
-208	89	soppressata_l	1	01/02/2015	14:30:19	20.75	20.75	L	Supreme	Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic	The Soppressata Pizza		
-209	89	thai_ckn_l	1	01/02/2015	14:30:19	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-210	90	sicilian_l	1	01/02/2015	15:08:48	20.25	20.25	L	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza		
-211	90	thai_ckn_s	1	01/02/2015	15:08:48	12.75	12.75	S	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-212	91	bbq_ckn_l	2	01/02/2015	15:14:43	20.75	41.5	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-213	91	ckn_pesto_s	1	01/02/2015	15:14:43	12.75	12.75	S	Chicken	Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce	The Chicken Pesto Pizza		
-214	91	pepperoni_s	1	01/02/2015	15:14:43	9.75	9.75	S	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-215	92	bbq_ckn_m	1	01/02/2015	15:17:02	16.75	16.75	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-216	92	ital_supr_l	1	01/02/2015	15:17:02	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-217	92	ital_supr_m	1	01/02/2015	15:17:02	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-218	92	ital_veggie_s	1	01/02/2015	15:17:02	12.75	12.75	S	Veggie	Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce	The Italian Vegetables Pizza		
-219	92	pepperoni_m	1	01/02/2015	15:17:02	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-220	92	peppr_salami_m	1	01/02/2015	15:17:02	16.5	16.5	M	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza		
-221	92	spinach_fet_s	1	01/02/2015	15:17:02	12	12	S	Veggie	Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic	The Spinach and Feta Pizza		
-222	92	spinach_supr_s	1	01/02/2015	15:17:02	12.5	12.5	S	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza		
-223	92	the_greek_m	2	01/02/2015	15:17:02	16	32	M	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza		
-224	93	sicilian_m	1	01/02/2015	15:29:31	16.25	16.25	M	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza		
-225	94	ital_cpcllo_m	1	01/02/2015	16:17:16	16	16	M	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-226	94	southw_ckn_s	1	01/02/2015	16:17:16	12.75	12.75	S	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza		
-227	95	napolitana_s	1	01/02/2015	16:18:04	12	12	S	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza		
-228	95	peppr_salami_l	1	01/02/2015	16:18:04	20.75	20.75	L	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza		
-229	96	napolitana_s	1	01/02/2015	16:21:20	12	12	S	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza		
-230	97	big_meat_s	1	01/02/2015	16:45:33	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-231	98	classic_dlx_l	1	01/02/2015	17:18:18	20.5	20.5	L	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-232	98	napolitana_l	1	01/02/2015	17:18:18	20.5	20.5	L	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza		
-233	99	ital_supr_l	1	01/02/2015	17:45:42	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-234	100	hawaiian_l	1	01/02/2015	17:46:17	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-235	101	cali_ckn_l	1	01/02/2015	17:51:33	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-236	101	pepperoni_l	1	01/02/2015	17:51:33	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-237	101	soppressata_l	1	01/02/2015	17:51:33	20.75	20.75	L	Supreme	Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic	The Soppressata Pizza		
-238	101	spicy_ital_m	1	01/02/2015	17:51:33	16.5	16.5	M	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-239	102	bbq_ckn_s	1	01/02/2015	17:54:04	12.75	12.75	S	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-240	102	prsc_argla_s	1	01/02/2015	17:54:04	12.5	12.5	S	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza		
-241	103	spinach_supr_s	1	01/02/2015	18:02:09	12.5	12.5	S	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza		
-242	104	bbq_ckn_m	1	01/02/2015	18:02:12	16.75	16.75	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-243	104	ckn_alfredo_m	1	01/02/2015	18:02:12	16.75	16.75	M	Chicken	Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce	The Chicken Alfredo Pizza		
-244	104	ital_veggie_m	1	01/02/2015	18:02:12	16.75	16.75	M	Veggie	Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce	The Italian Vegetables Pizza		
-245	104	veggie_veg_l	1	01/02/2015	18:02:12	20.25	20.25	L	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza		
-246	105	hawaiian_s	2	01/02/2015	18:12:01	10.5	21	S	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-247	105	pepperoni_l	1	01/02/2015	18:12:01	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-248	105	prsc_argla_m	1	01/02/2015	18:12:01	16.5	16.5	M	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza		
-249	106	mexicana_l	1	01/02/2015	18:12:13	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza		
-250	106	spicy_ital_l	1	01/02/2015	18:12:13	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-251	107	cali_ckn_l	1	01/02/2015	18:25:09	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-252	107	ital_supr_m	1	01/02/2015	18:25:09	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-253	107	spicy_ital_l	1	01/02/2015	18:25:09	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-254	107	veggie_veg_l	1	01/02/2015	18:25:09	20.25	20.25	L	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza		
-255	108	classic_dlx_l	1	01/02/2015	18:25:25	20.5	20.5	L	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-256	108	hawaiian_l	1	01/02/2015	18:25:25	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-257	108	spinach_supr_l	1	01/02/2015	18:25:25	20.75	20.75	L	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza		
-258	109	ital_cpcllo_l	1	01/02/2015	18:27:50	20.5	20.5	L	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-259	109	ital_supr_l	1	01/02/2015	18:27:50	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-260	109	pepperoni_m	1	01/02/2015	18:27:50	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-261	109	prsc_argla_l	1	01/02/2015	18:27:50	20.75	20.75	L	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza		
-262	110	big_meat_s	1	01/02/2015	18:36:19	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-263	110	napolitana_l	1	01/02/2015	18:36:19	20.5	20.5	L	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza		
-264	110	soppressata_l	1	01/02/2015	18:36:19	20.75	20.75	L	Supreme	Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic	The Soppressata Pizza		
-265	110	spicy_ital_s	1	01/02/2015	18:36:19	12.5	12.5	S	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-266	111	cali_ckn_m	1	01/02/2015	18:38:01	16.75	16.75	M	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-267	111	five_cheese_l	1	01/02/2015	18:38:01	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza		
-268	111	pepperoni_m	1	01/02/2015	18:38:01	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-269	111	spin_pesto_l	1	01/02/2015	18:38:01	20.75	20.75	L	Veggie	Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce	The Spinach Pesto Pizza		
-270	112	pepperoni_s	1	01/02/2015	18:41:40	9.75	9.75	S	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-271	113	cali_ckn_l	1	01/02/2015	18:50:21	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-272	113	mexicana_l	1	01/02/2015	18:50:21	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza		
-273	113	southw_ckn_m	1	01/02/2015	18:50:21	16.75	16.75	M	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza		
-274	114	pepperoni_l	1	01/02/2015	18:59:32	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-275	114	sicilian_s	1	01/02/2015	18:59:32	12.25	12.25	S	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza		
-276	115	big_meat_s	1	01/02/2015	19:05:17	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-277	115	napolitana_l	1	01/02/2015	19:05:17	20.5	20.5	L	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza		
-278	115	thai_ckn_m	1	01/02/2015	19:05:17	16.75	16.75	M	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-279	116	five_cheese_l	1	01/02/2015	19:18:49	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza		
-280	117	peppr_salami_m	1	01/02/2015	19:23:02	16.5	16.5	M	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza		
-281	117	sicilian_l	1	01/02/2015	19:23:02	20.25	20.25	L	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza		
-282	118	prsc_argla_l	1	01/02/2015	19:26:59	20.75	20.75	L	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza		
-283	118	spinach_fet_s	1	01/02/2015	19:26:59	12	12	S	Veggie	Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic	The Spinach and Feta Pizza		
-284	119	four_cheese_m	1	01/02/2015	19:32:29	14.75	14.75	M	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza		
-285	120	classic_dlx_s	1	01/02/2015	19:35:07	12	12	S	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-286	120	hawaiian_s	1	01/02/2015	19:35:07	10.5	10.5	S	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-287	120	spinach_fet_l	1	01/02/2015	19:35:07	20.25	20.25	L	Veggie	Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic	The Spinach and Feta Pizza		
-288	121	bbq_ckn_m	1	01/02/2015	19:38:48	16.75	16.75	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-289	121	four_cheese_l	1	01/02/2015	19:38:48	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza		
-290	121	sicilian_l	1	01/02/2015	19:38:48	20.25	20.25	L	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza		
-291	121	southw_ckn_l	1	01/02/2015	19:38:48	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza		
-292	122	ital_supr_m	1	01/02/2015	19:50:19	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-293	123	ital_cpcllo_s	1	01/02/2015	20:12:09	12	12	S	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-294	124	bbq_ckn_s	1	01/02/2015	20:12:34	12.75	12.75	S	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-295	124	sicilian_l	1	01/02/2015	20:12:34	20.25	20.25	L	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza		
-296	124	spicy_ital_l	1	01/02/2015	20:12:34	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-297	124	the_greek_s	1	01/02/2015	20:12:34	12	12	S	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza		
-298	125	the_greek_xl	1	01/02/2015	20:31:06	25.5	25.5	XL	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza		
-299	126	veggie_veg_l	1	01/02/2015	20:53:42	20.25	20.25	L	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza		
-300	127	pepperoni_m	1	01/02/2015	20:58:23	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-301	128	spicy_ital_s	1	01/02/2015	21:05:06	12.5	12.5	S	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-302	129	big_meat_s	1	01/02/2015	21:13:02	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-303	129	the_greek_m	1	01/02/2015	21:13:02	16	16	M	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza		
-304	130	hawaiian_s	1	01/02/2015	21:14:55	10.5	10.5	S	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-305	130	ital_cpcllo_l	1	01/02/2015	21:14:55	20.5	20.5	L	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-306	130	mexicana_m	1	01/02/2015	21:14:55	16	16	M	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza		
-307	130	southw_ckn_s	1	01/02/2015	21:14:55	12.75	12.75	S	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza		
-308	131	ckn_pesto_l	1	01/02/2015	21:33:10	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce	The Chicken Pesto Pizza		
-309	131	five_cheese_l	1	01/02/2015	21:33:10	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza		
-310	131	green_garden_s	1	01/02/2015	21:33:10	12	12	S	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza		
-311	131	spinach_supr_s	1	01/02/2015	21:33:10	12.5	12.5	S	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza		
-312	132	pepperoni_s	1	01/02/2015	21:42:45	9.75	9.75	S	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-313	133	bbq_ckn_l	1	01/02/2015	22:00:17	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-314	133	hawaiian_l	1	01/02/2015	22:00:17	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-315	133	the_greek_s	1	01/02/2015	22:00:17	12	12	S	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza		
-316	134	big_meat_s	1	01/02/2015	22:13:24	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-317	134	southw_ckn_l	1	01/02/2015	22:13:24	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza		
-318	134	spinach_supr_s	1	01/02/2015	22:13:24	12.5	12.5	S	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza		
-319	135	veggie_veg_l	1	01/02/2015	22:29:34	20.25	20.25	L	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza		
-320	136	five_cheese_l	1	01/02/2015	22:32:49	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza		
-321	136	peppr_salami_s	1	01/02/2015	22:32:49	12.5	12.5	S	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza		
-322	137	mediterraneo_l	1	01/03/2015	11:34:10	20.25	20.25	L	Veggie	Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions	The Mediterranean Pizza		
-323	137	pepperoni_s	1	01/03/2015	11:34:10	9.75	9.75	S	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-324	137	spicy_ital_m	1	01/03/2015	11:34:10	16.5	16.5	M	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-325	138	cali_ckn_m	1	01/03/2015	11:44:50	16.75	16.75	M	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-326	138	four_cheese_l	1	01/03/2015	11:44:50	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza		
-327	138	ital_veggie_l	1	01/03/2015	11:44:50	21	21	L	Veggie	Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce	The Italian Vegetables Pizza		
-328	138	sicilian_m	1	01/03/2015	11:44:50	16.25	16.25	M	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza		
-329	139	five_cheese_l	1	01/03/2015	11:57:39	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza		
-330	140	prsc_argla_s	1	01/03/2015	12:26:44	12.5	12.5	S	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza		
-331	140	veggie_veg_m	1	01/03/2015	12:26:44	16	16	M	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza		
-332	141	classic_dlx_m	1	01/03/2015	13:16:01	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-333	142	green_garden_m	1	01/03/2015	13:33:59	16	16	M	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza		
-334	143	cali_ckn_s	1	01/03/2015	13:41:36	12.75	12.75	S	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-335	143	classic_dlx_s	1	01/03/2015	13:41:36	12	12	S	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-336	143	hawaiian_l	1	01/03/2015	13:41:36	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-337	143	mexicana_m	1	01/03/2015	13:41:36	16	16	M	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza		
-338	143	pepperoni_l	1	01/03/2015	13:41:36	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-339	143	prsc_argla_s	1	01/03/2015	13:41:36	12.5	12.5	S	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza		
-340	143	thai_ckn_l	1	01/03/2015	13:41:36	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-341	143	veggie_veg_m	1	01/03/2015	13:41:36	16	16	M	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza		
-342	144	bbq_ckn_m	3	01/03/2015	13:44:28	16.75	50.25	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-343	144	big_meat_s	1	01/03/2015	13:44:28	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-344	144	cali_ckn_l	1	01/03/2015	13:44:28	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-345	144	ckn_pesto_m	1	01/03/2015	13:44:28	16.75	16.75	M	Chicken	Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce	The Chicken Pesto Pizza		
-346	144	five_cheese_l	1	01/03/2015	13:44:28	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza		
-347	144	four_cheese_l	1	01/03/2015	13:44:28	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza		
-348	144	pep_msh_pep_s	1	01/03/2015	13:44:28	11	11	S	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza		
-349	144	southw_ckn_l	1	01/03/2015	13:44:28	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza		
-350	144	southw_ckn_s	1	01/03/2015	13:44:28	12.75	12.75	S	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza		
-351	144	spicy_ital_l	1	01/03/2015	13:44:28	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-352	144	thai_ckn_m	1	01/03/2015	13:44:28	16.75	16.75	M	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-353	144	veggie_veg_l	1	01/03/2015	13:44:28	20.25	20.25	L	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza		
-354	145	the_greek_s	1	01/03/2015	13:53:48	12	12	S	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza		
-355	146	cali_ckn_l	1	01/03/2015	14:22:10	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-356	146	four_cheese_m	1	01/03/2015	14:22:10	14.75	14.75	M	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza		
-357	146	hawaiian_m	1	01/03/2015	14:22:10	13.25	13.25	M	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-358	147	the_greek_xl	1	01/03/2015	14:32:51	25.5	25.5	XL	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza		
-359	148	mediterraneo_s	1	01/03/2015	14:40:42	12	12	S	Veggie	Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions	The Mediterranean Pizza		
-360	149	spinach_fet_m	1	01/03/2015	14:48:45	16	16	M	Veggie	Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic	The Spinach and Feta Pizza		
-361	150	pepperoni_m	1	01/03/2015	14:49:58	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-362	151	southw_ckn_l	1	01/03/2015	15:09:34	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza		
-363	151	spinach_supr_s	1	01/03/2015	15:09:34	12.5	12.5	S	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza		
-364	152	hawaiian_s	1	01/03/2015	15:09:42	10.5	10.5	S	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-365	152	spinach_fet_l	1	01/03/2015	15:09:42	20.25	20.25	L	Veggie	Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic	The Spinach and Feta Pizza		
-366	152	thai_ckn_s	1	01/03/2015	15:09:42	12.75	12.75	S	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-367	152	the_greek_m	1	01/03/2015	15:09:42	16	16	M	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza		
-368	153	mexicana_m	1	01/03/2015	15:16:34	16	16	M	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza		
-369	154	prsc_argla_s	1	01/03/2015	15:22:43	12.5	12.5	S	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza		
-370	155	ckn_pesto_s	1	01/03/2015	15:28:59	12.75	12.75	S	Chicken	Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce	The Chicken Pesto Pizza		
-371	155	napolitana_l	1	01/03/2015	15:28:59	20.5	20.5	L	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza		
-372	155	pepperoni_l	1	01/03/2015	15:28:59	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-373	155	peppr_salami_l	1	01/03/2015	15:28:59	20.75	20.75	L	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza		
-374	156	napolitana_m	1	01/03/2015	15:42:19	16	16	M	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza		
-375	156	thai_ckn_l	1	01/03/2015	15:42:19	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-376	157	ital_supr_l	1	01/03/2015	15:43:03	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-377	157	mediterraneo_m	1	01/03/2015	15:43:03	16	16	M	Veggie	Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions	The Mediterranean Pizza		
-378	157	sicilian_m	1	01/03/2015	15:43:03	16.25	16.25	M	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza		
-379	157	spin_pesto_m	1	01/03/2015	15:43:03	16.5	16.5	M	Veggie	Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce	The Spinach Pesto Pizza		
-380	158	ital_veggie_m	1	01/03/2015	15:54:30	16.75	16.75	M	Veggie	Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce	The Italian Vegetables Pizza		
-381	158	thai_ckn_m	1	01/03/2015	15:54:30	16.75	16.75	M	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-382	159	four_cheese_l	1	01/03/2015	15:59:22	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza		
-383	159	thai_ckn_m	1	01/03/2015	15:59:22	16.75	16.75	M	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-384	160	classic_dlx_m	1	01/03/2015	16:35:33	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-385	161	hawaiian_s	1	01/03/2015	16:43:46	10.5	10.5	S	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-386	161	spicy_ital_m	1	01/03/2015	16:43:46	16.5	16.5	M	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza		
-387	161	the_greek_xl	1	01/03/2015	16:43:46	25.5	25.5	XL	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza		
-388	162	big_meat_s	1	01/03/2015	16:51:22	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-389	163	hawaiian_m	1	01/03/2015	16:54:54	13.25	13.25	M	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-390	163	pepperoni_l	1	01/03/2015	16:54:54	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-391	163	the_greek_m	1	01/03/2015	16:54:54	16	16	M	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza		
-392	164	cali_ckn_l	1	01/03/2015	16:56:33	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-393	164	pepperoni_m	1	01/03/2015	16:56:33	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-394	165	prsc_argla_m	1	01/03/2015	16:57:37	16.5	16.5	M	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza		
-395	166	prsc_argla_s	1	01/03/2015	16:58:51	12.5	12.5	S	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza		
-396	167	bbq_ckn_l	1	01/03/2015	17:00:49	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza		
-397	167	ital_supr_m	1	01/03/2015	17:00:49	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-398	167	pepperoni_m	1	01/03/2015	17:00:49	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza		
-399	168	big_meat_s	1	01/03/2015	17:02:27	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-400	168	veggie_veg_m	1	01/03/2015	17:02:27	16	16	M	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza		
-401	169	four_cheese_l	1	01/03/2015	17:15:48	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza		
-402	169	ital_cpcllo_s	1	01/03/2015	17:15:48	12	12	S	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-403	169	sicilian_m	1	01/03/2015	17:15:48	16.25	16.25	M	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza		
-404	170	hawaiian_l	1	01/03/2015	17:21:31	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-405	171	napolitana_m	1	01/03/2015	17:23:03	16	16	M	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza		
-406	172	napolitana_s	1	01/03/2015	17:29:24	12	12	S	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza		
-407	172	spinach_supr_m	1	01/03/2015	17:29:24	16.5	16.5	M	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza		
-408	172	thai_ckn_l	1	01/03/2015	17:29:24	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-409	173	cali_ckn_m	1	01/03/2015	17:35:30	16.75	16.75	M	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-410	173	classic_dlx_m	1	01/03/2015	17:35:30	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza		
-411	173	veggie_veg_l	1	01/03/2015	17:35:30	20.25	20.25	L	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza		
-412	174	big_meat_s	1	01/03/2015	17:37:49	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza		
-413	174	cali_ckn_l	1	01/03/2015	17:37:49	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-414	174	cali_ckn_m	1	01/03/2015	17:37:49	16.75	16.75	M	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-415	174	ital_cpcllo_m	1	01/03/2015	17:37:49	16	16	M	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza		
-416	175	ital_supr_l	1	01/03/2015	17:50:51	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza		
-417	176	cali_ckn_l	1	01/03/2015	17:51:57	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza		
-418	176	peppr_salami_m	1	01/03/2015	17:51:57	16.5	16.5	M	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza		
-419	177	napolitana_s	1	01/03/2015	17:54:36	12	12	S	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza		
-420	177	thai_ckn_l	1	01/03/2015	17:54:36	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza		
-421	178	peppr_salami_l	1	01/03/2015	18:15:03	20.75	20.75	L	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza		
-422	179	hawaiian_l	1	01/03/2015	18:20:14	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza		
-423	179	sicilian_m	1	01/03/2015	18:20:14	16.25	16.25	M	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza		
-424	179	veggie_veg_s	1	01/03/2015	18:20:14	12	12	S	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza		
+order_details_id	order_id	pizza_id	quantity	order_date	order_time	unit_price	total_price	pizza_size	pizza_category	pizza_ingredients	pizza_name			
+1	1	hawaiian_m	1	01/01/2015	11:38:36	13.25	13.25	M	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+2	2	classic_dlx_m	1	01/01/2015	11:57:40	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+3	2	five_cheese_l	1	01/01/2015	11:57:40	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+4	2	ital_supr_l	1	01/01/2015	11:57:40	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+5	2	mexicana_m	1	01/01/2015	11:57:40	16	16	M	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+6	2	thai_ckn_l	1	01/01/2015	11:57:40	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+7	3	ital_supr_m	1	01/01/2015	12:12:28	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+8	3	prsc_argla_l	1	01/01/2015	12:12:28	20.75	20.75	L	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza			
+9	4	ital_supr_m	1	01/01/2015	12:16:31	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+10	5	ital_supr_m	1	01/01/2015	12:21:30	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+11	6	bbq_ckn_s	1	01/01/2015	12:29:36	12.75	12.75	S	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+12	6	the_greek_s	1	01/01/2015	12:29:36	12	12	S	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza			
+13	7	spinach_supr_s	1	01/01/2015	12:50:37	12.5	12.5	S	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza			
+14	8	spinach_supr_s	1	01/01/2015	12:51:37	12.5	12.5	S	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza			
+15	9	classic_dlx_s	1	01/01/2015	12:52:01	12	12	S	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+16	9	green_garden_s	1	01/01/2015	12:52:01	12	12	S	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza			
+17	9	ital_cpcllo_l	1	01/01/2015	12:52:01	20.5	20.5	L	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+18	9	ital_supr_l	1	01/01/2015	12:52:01	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+19	9	ital_supr_s	1	01/01/2015	12:52:01	12.5	12.5	S	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+20	9	mexicana_s	1	01/01/2015	12:52:01	12	12	S	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+21	9	spicy_ital_l	1	01/01/2015	12:52:01	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+22	9	spin_pesto_l	1	01/01/2015	12:52:01	20.75	20.75	L	Veggie	Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce	The Spinach Pesto Pizza			
+23	9	veggie_veg_s	1	01/01/2015	12:52:01	12	12	S	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza			
+24	10	mexicana_l	1	01/01/2015	13:00:15	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+25	10	southw_ckn_l	1	01/01/2015	13:00:15	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+26	11	bbq_ckn_l	1	01/01/2015	13:02:59	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+27	11	cali_ckn_l	1	01/01/2015	13:02:59	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+28	11	cali_ckn_m	1	01/01/2015	13:02:59	16.75	16.75	M	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+29	11	pepperoni_l	1	01/01/2015	13:02:59	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+30	12	cali_ckn_l	1	01/01/2015	13:04:41	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+31	12	cali_ckn_s	1	01/01/2015	13:04:41	12.75	12.75	S	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+32	12	ckn_pesto_l	1	01/01/2015	13:04:41	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce	The Chicken Pesto Pizza			
+33	12	ital_supr_m	1	01/01/2015	13:04:41	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+34	13	mexicana_l	1	01/01/2015	13:11:55	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+35	14	the_greek_s	1	01/01/2015	13:14:19	12	12	S	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza			
+36	15	big_meat_s	1	01/01/2015	13:33	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+37	15	five_cheese_l	1	01/01/2015	13:33	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+38	15	soppressata_l	1	01/01/2015	13:33	20.75	20.75	L	Supreme	Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic	The Soppressata Pizza			
+39	15	the_greek_s	1	01/01/2015	13:33	12	12	S	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza			
+40	16	four_cheese_l	1	01/01/2015	13:34:07	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza			
+41	16	napolitana_s	1	01/01/2015	13:34:07	12	12	S	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza			
+42	16	thai_ckn_l	1	01/01/2015	13:34:07	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+43	17	bbq_ckn_l	1	01/01/2015	13:53	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+44	17	calabrese_m	1	01/01/2015	13:53	16.25	16.25	M	Supreme	慛duja Salami, Pancetta, Tomatoes, Red Onions, Friggitello Peppers, Garlic	The Calabrese Pizza			
+45	17	five_cheese_l	1	01/01/2015	13:53	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+46	17	four_cheese_m	1	01/01/2015	13:53	14.75	14.75	M	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza			
+47	17	ital_supr_m	1	01/01/2015	13:53	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+48	17	ital_veggie_s	1	01/01/2015	13:53	12.75	12.75	S	Veggie	Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce	The Italian Vegetables Pizza			
+49	17	mediterraneo_m	2	01/01/2015	13:53	16	32	M	Veggie	Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions	The Mediterranean Pizza			
+50	17	mexicana_l	1	01/01/2015	13:53	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+51	17	peppr_salami_s	1	01/01/2015	13:53	12.5	12.5	S	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza			
+52	17	spinach_fet_l	1	01/01/2015	13:53	20.25	20.25	L	Veggie	Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic	The Spinach and Feta Pizza			
+53	18	napolitana_l	1	01/01/2015	13:57:08	20.5	20.5	L	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza			
+54	19	ital_cpcllo_l	1	01/01/2015	13:59:09	20.5	20.5	L	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+55	19	sicilian_l	1	01/01/2015	13:59:09	20.25	20.25	L	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza			
+56	20	big_meat_s	1	01/01/2015	14:03:08	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+57	20	five_cheese_l	1	01/01/2015	14:03:08	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+58	21	ital_cpcllo_l	1	01/01/2015	14:14:29	20.5	20.5	L	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+59	22	five_cheese_l	1	01/01/2015	14:16:26	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+60	22	ital_cpcllo_m	1	01/01/2015	14:16:26	16	16	M	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+61	22	southw_ckn_l	1	01/01/2015	14:16:26	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+62	23	southw_ckn_s	1	01/01/2015	14:19:03	12.75	12.75	S	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+63	24	bbq_ckn_m	1	01/01/2015	14:23:01	16.75	16.75	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+64	24	ital_cpcllo_m	1	01/01/2015	14:23:01	16	16	M	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+65	24	pepperoni_m	1	01/01/2015	14:23:01	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+66	24	prsc_argla_s	1	01/01/2015	14:23:01	12.5	12.5	S	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza			
+67	25	sicilian_m	1	01/01/2015	14:44:44	16.25	16.25	M	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza			
+68	25	thai_ckn_l	1	01/01/2015	14:44:44	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+69	26	classic_dlx_s	1	01/01/2015	14:54:26	12	12	S	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+70	26	veggie_veg_l	1	01/01/2015	14:54:26	20.25	20.25	L	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza			
+71	27	bbq_ckn_l	1	01/01/2015	15:11:17	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+72	27	classic_dlx_m	1	01/01/2015	15:11:17	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+73	27	spinach_fet_l	1	01/01/2015	15:11:17	20.25	20.25	L	Veggie	Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic	The Spinach and Feta Pizza			
+74	28	ckn_alfredo_s	1	01/01/2015	15:35:46	12.75	12.75	S	Chicken	Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce	The Chicken Alfredo Pizza			
+75	29	green_garden_s	1	01/01/2015	15:41:01	12	12	S	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza			
+76	30	thai_ckn_l	1	01/01/2015	15:41:25	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+77	31	mexicana_m	1	01/01/2015	15:50:18	16	16	M	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+78	31	pepperoni_s	1	01/01/2015	15:50:18	9.75	9.75	S	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+79	32	big_meat_s	1	01/01/2015	15:53:18	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+80	32	green_garden_l	1	01/01/2015	15:53:18	20.25	20.25	L	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza			
+81	32	ital_cpcllo_l	1	01/01/2015	15:53:18	20.5	20.5	L	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+82	32	ital_supr_m	1	01/01/2015	15:53:18	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+83	33	bbq_ckn_l	1	01/01/2015	15:54:08	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+84	33	green_garden_s	1	01/01/2015	15:54:08	12	12	S	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza			
+85	34	the_greek_s	1	01/01/2015	16:21:21	12	12	S	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza			
+86	35	green_garden_m	1	01/01/2015	16:32:04	16	16	M	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza			
+87	35	pep_msh_pep_l	1	01/01/2015	16:32:04	17.5	17.5	L	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza			
+88	35	pepperoni_m	1	01/01/2015	16:32:04	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+89	35	thai_ckn_l	1	01/01/2015	16:32:04	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+90	36	bbq_ckn_m	1	01/01/2015	16:54:09	16.75	16.75	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+91	36	classic_dlx_m	1	01/01/2015	16:54:09	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+92	37	ital_supr_l	1	01/01/2015	16:56:09	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+93	37	mexicana_l	1	01/01/2015	16:56:09	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+94	38	hawaiian_s	1	01/01/2015	17:03	10.5	10.5	S	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+95	38	ital_cpcllo_l	1	01/01/2015	17:03	20.5	20.5	L	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+96	39	ital_supr_l	1	01/01/2015	17:07:23	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+97	40	four_cheese_l	1	01/01/2015	17:14:36	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza			
+98	40	southw_ckn_s	1	01/01/2015	17:14:36	12.75	12.75	S	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+99	41	four_cheese_m	1	01/01/2015	17:15:20	14.75	14.75	M	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza			
+100	41	green_garden_s	1	01/01/2015	17:15:20	12	12	S	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza			
+101	42	big_meat_s	1	01/01/2015	17:28:09	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+102	42	five_cheese_l	1	01/01/2015	17:28:09	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+103	42	mexicana_l	1	01/01/2015	17:28:09	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+104	42	peppr_salami_m	1	01/01/2015	17:28:09	16.5	16.5	M	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza			
+105	43	ckn_alfredo_m	1	01/01/2015	17:38:34	16.75	16.75	M	Chicken	Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce	The Chicken Alfredo Pizza			
+106	43	ital_supr_m	1	01/01/2015	17:38:34	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+107	43	peppr_salami_l	1	01/01/2015	17:38:34	20.75	20.75	L	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza			
+108	44	spin_pesto_s	1	01/01/2015	17:54:20	12.5	12.5	S	Veggie	Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce	The Spinach Pesto Pizza			
+109	45	four_cheese_l	1	01/01/2015	17:55:48	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza			
+110	45	hawaiian_s	1	01/01/2015	17:55:48	10.5	10.5	S	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+111	45	thai_ckn_m	1	01/01/2015	17:55:48	16.75	16.75	M	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+112	46	ckn_pesto_l	1	01/01/2015	18:25:51	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce	The Chicken Pesto Pizza			
+113	46	classic_dlx_l	1	01/01/2015	18:25:51	20.5	20.5	L	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+114	46	thai_ckn_m	1	01/01/2015	18:25:51	16.75	16.75	M	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+115	47	southw_ckn_l	1	01/01/2015	18:26:34	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+116	47	veggie_veg_s	1	01/01/2015	18:26:34	12	12	S	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza			
+117	48	ckn_pesto_m	1	01/01/2015	18:26:42	16.75	16.75	M	Chicken	Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce	The Chicken Pesto Pizza			
+118	48	green_garden_s	1	01/01/2015	18:26:42	12	12	S	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza			
+119	48	prsc_argla_l	1	01/01/2015	18:26:42	20.75	20.75	L	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza			
+120	48	spicy_ital_l	1	01/01/2015	18:26:42	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+121	49	sicilian_l	1	01/01/2015	18:33	20.25	20.25	L	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza			
+122	50	the_greek_xl	1	01/01/2015	18:41:01	25.5	25.5	XL	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza			
+123	51	bbq_ckn_l	1	01/01/2015	18:48:28	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+124	51	pep_msh_pep_l	1	01/01/2015	18:48:28	17.5	17.5	L	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza			
+125	52	hawaiian_l	1	01/01/2015	18:53:02	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+126	52	mexicana_l	1	01/01/2015	18:53:02	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+127	52	spicy_ital_l	1	01/01/2015	18:53:02	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+128	53	pep_msh_pep_s	1	01/01/2015	18:54:17	11	11	S	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza			
+129	53	spinach_supr_m	1	01/01/2015	18:54:17	16.5	16.5	M	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza			
+130	54	prsc_argla_m	1	01/01/2015	19:01:45	16.5	16.5	M	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza			
+131	54	thai_ckn_l	1	01/01/2015	19:01:45	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+132	55	peppr_salami_s	1	01/01/2015	19:03:19	12.5	12.5	S	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza			
+133	55	spicy_ital_l	1	01/01/2015	19:03:19	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+134	56	classic_dlx_m	1	01/01/2015	19:07	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+135	56	mediterraneo_l	1	01/01/2015	19:07	20.25	20.25	L	Veggie	Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions	The Mediterranean Pizza			
+136	56	southw_ckn_m	1	01/01/2015	19:07	16.75	16.75	M	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+137	57	classic_dlx_m	1	01/01/2015	19:10:51	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+138	58	five_cheese_l	1	01/01/2015	19:30:40	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+139	58	pepperoni_m	1	01/01/2015	19:30:40	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+140	59	ital_veggie_s	1	01/01/2015	19:40:08	12.75	12.75	S	Veggie	Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce	The Italian Vegetables Pizza			
+141	59	pep_msh_pep_s	1	01/01/2015	19:40:08	11	11	S	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza			
+142	59	pepperoni_l	1	01/01/2015	19:40:08	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+143	60	ckn_pesto_l	1	01/01/2015	20:05:16	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce	The Chicken Pesto Pizza			
+144	60	four_cheese_m	1	01/01/2015	20:05:16	14.75	14.75	M	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza			
+145	61	bbq_ckn_m	1	01/01/2015	20:08:43	16.75	16.75	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+146	61	ital_supr_l	1	01/01/2015	20:08:43	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+147	62	bbq_ckn_m	1	01/01/2015	20:50:16	16.75	16.75	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+148	62	spinach_supr_m	1	01/01/2015	20:50:16	16.5	16.5	M	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza			
+149	63	pep_msh_pep_m	1	01/01/2015	20:51:42	14.5	14.5	M	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza			
+150	64	big_meat_s	1	01/01/2015	20:52:08	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+151	65	pep_msh_pep_s	1	01/01/2015	21:16	11	11	S	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza			
+152	65	sicilian_s	1	01/01/2015	21:16	12.25	12.25	S	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza			
+153	65	spicy_ital_s	1	01/01/2015	21:16	12.5	12.5	S	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+154	65	spinach_supr_m	1	01/01/2015	21:16	16.5	16.5	M	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza			
+155	66	classic_dlx_m	1	01/01/2015	21:47:55	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+156	66	ital_cpcllo_m	1	01/01/2015	21:47:55	16	16	M	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+157	67	southw_ckn_l	1	01/01/2015	22:03:40	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+158	68	classic_dlx_m	1	01/01/2015	22:07:32	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+159	68	ital_supr_l	1	01/01/2015	22:07:32	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+160	68	ital_supr_m	1	01/01/2015	22:07:32	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+161	69	bbq_ckn_l	1	01/01/2015	22:12:13	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+162	70	ital_veggie_s	1	01/02/2015	11:38:51	12.75	12.75	S	Veggie	Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce	The Italian Vegetables Pizza			
+163	70	soppressata_l	1	01/02/2015	11:38:51	20.75	20.75	L	Supreme	Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic	The Soppressata Pizza			
+164	71	thai_ckn_l	1	01/02/2015	11:40:50	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+165	72	spinach_fet_l	1	01/02/2015	11:57:25	20.25	20.25	L	Veggie	Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic	The Spinach and Feta Pizza			
+166	73	thai_ckn_s	1	01/02/2015	11:58:56	12.75	12.75	S	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+167	74	five_cheese_l	1	01/02/2015	12:01:12	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+168	74	mexicana_l	1	01/02/2015	12:01:12	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+169	74	spin_pesto_s	1	01/02/2015	12:01:12	12.5	12.5	S	Veggie	Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce	The Spinach Pesto Pizza			
+170	74	spinach_supr_l	1	01/02/2015	12:01:12	20.75	20.75	L	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza			
+171	75	ital_supr_s	1	01/02/2015	12:10:15	12.5	12.5	S	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+172	75	mediterraneo_l	1	01/02/2015	12:10:15	20.25	20.25	L	Veggie	Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions	The Mediterranean Pizza			
+173	75	napolitana_l	1	01/02/2015	12:10:15	20.5	20.5	L	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza			
+174	76	big_meat_s	1	01/02/2015	12:21:17	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+175	76	hawaiian_l	1	01/02/2015	12:21:17	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+176	76	ital_veggie_l	1	01/02/2015	12:21:17	21	21	L	Veggie	Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce	The Italian Vegetables Pizza			
+177	76	spicy_ital_l	1	01/02/2015	12:21:17	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+178	77	bbq_ckn_m	1	01/02/2015	12:22:46	16.75	16.75	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+179	77	hawaiian_m	1	01/02/2015	12:22:46	13.25	13.25	M	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+180	78	big_meat_s	1	01/02/2015	12:28:14	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+181	78	classic_dlx_s	1	01/02/2015	12:28:14	12	12	S	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+182	78	four_cheese_l	1	01/02/2015	12:28:14	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza			
+183	78	ital_cpcllo_m	1	01/02/2015	12:28:14	16	16	M	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+184	78	spicy_ital_l	3	01/02/2015	12:28:14	20.75	62.25	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+185	78	thai_ckn_s	1	01/02/2015	12:28:14	12.75	12.75	S	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+186	79	ital_cpcllo_l	1	01/02/2015	12:29:11	20.5	20.5	L	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+187	79	pep_msh_pep_s	1	01/02/2015	12:29:11	11	11	S	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza			
+188	79	thai_ckn_l	1	01/02/2015	12:29:11	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+189	80	pepperoni_s	1	01/02/2015	12:35:38	9.75	9.75	S	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+190	80	thai_ckn_m	1	01/02/2015	12:35:38	16.75	16.75	M	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+191	81	thai_ckn_l	1	01/02/2015	12:40:01	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+192	82	big_meat_s	1	01/02/2015	12:45:51	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+193	82	cali_ckn_m	1	01/02/2015	12:45:51	16.75	16.75	M	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+194	82	spicy_ital_l	1	01/02/2015	12:45:51	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+195	82	veggie_veg_m	1	01/02/2015	12:45:51	16	16	M	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza			
+196	83	southw_ckn_s	1	01/02/2015	12:53:27	12.75	12.75	S	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+197	84	pepperoni_l	1	01/02/2015	13:13:41	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+198	85	classic_dlx_m	1	01/02/2015	13:34:49	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+199	85	classic_dlx_s	1	01/02/2015	13:34:49	12	12	S	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+200	85	ital_supr_l	1	01/02/2015	13:34:49	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+201	85	the_greek_m	1	01/02/2015	13:34:49	16	16	M	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza			
+202	86	hawaiian_l	1	01/02/2015	13:40:31	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+203	87	ital_cpcllo_m	1	01/02/2015	14:01:02	16	16	M	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+204	87	mexicana_m	1	01/02/2015	14:01:02	16	16	M	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+205	87	spinach_supr_l	1	01/02/2015	14:01:02	20.75	20.75	L	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza			
+206	87	spinach_supr_s	1	01/02/2015	14:01:02	12.5	12.5	S	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza			
+207	88	five_cheese_l	1	01/02/2015	14:10:08	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+208	89	soppressata_l	1	01/02/2015	14:30:19	20.75	20.75	L	Supreme	Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic	The Soppressata Pizza			
+209	89	thai_ckn_l	1	01/02/2015	14:30:19	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+210	90	sicilian_l	1	01/02/2015	15:08:48	20.25	20.25	L	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza			
+211	90	thai_ckn_s	1	01/02/2015	15:08:48	12.75	12.75	S	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+212	91	bbq_ckn_l	2	01/02/2015	15:14:43	20.75	41.5	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+213	91	ckn_pesto_s	1	01/02/2015	15:14:43	12.75	12.75	S	Chicken	Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce	The Chicken Pesto Pizza			
+214	91	pepperoni_s	1	01/02/2015	15:14:43	9.75	9.75	S	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+215	92	bbq_ckn_m	1	01/02/2015	15:17:02	16.75	16.75	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+216	92	ital_supr_l	1	01/02/2015	15:17:02	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+217	92	ital_supr_m	1	01/02/2015	15:17:02	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+218	92	ital_veggie_s	1	01/02/2015	15:17:02	12.75	12.75	S	Veggie	Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce	The Italian Vegetables Pizza			
+219	92	pepperoni_m	1	01/02/2015	15:17:02	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+220	92	peppr_salami_m	1	01/02/2015	15:17:02	16.5	16.5	M	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza			
+221	92	spinach_fet_s	1	01/02/2015	15:17:02	12	12	S	Veggie	Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic	The Spinach and Feta Pizza			
+222	92	spinach_supr_s	1	01/02/2015	15:17:02	12.5	12.5	S	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza			
+223	92	the_greek_m	2	01/02/2015	15:17:02	16	32	M	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza			
+224	93	sicilian_m	1	01/02/2015	15:29:31	16.25	16.25	M	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza			
+225	94	ital_cpcllo_m	1	01/02/2015	16:17:16	16	16	M	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+226	94	southw_ckn_s	1	01/02/2015	16:17:16	12.75	12.75	S	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+227	95	napolitana_s	1	01/02/2015	16:18:04	12	12	S	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza			
+228	95	peppr_salami_l	1	01/02/2015	16:18:04	20.75	20.75	L	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza			
+229	96	napolitana_s	1	01/02/2015	16:21:20	12	12	S	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza			
+230	97	big_meat_s	1	01/02/2015	16:45:33	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+231	98	classic_dlx_l	1	01/02/2015	17:18:18	20.5	20.5	L	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+232	98	napolitana_l	1	01/02/2015	17:18:18	20.5	20.5	L	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza			
+233	99	ital_supr_l	1	01/02/2015	17:45:42	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+234	100	hawaiian_l	1	01/02/2015	17:46:17	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+235	101	cali_ckn_l	1	01/02/2015	17:51:33	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+236	101	pepperoni_l	1	01/02/2015	17:51:33	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+237	101	soppressata_l	1	01/02/2015	17:51:33	20.75	20.75	L	Supreme	Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic	The Soppressata Pizza			
+238	101	spicy_ital_m	1	01/02/2015	17:51:33	16.5	16.5	M	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+239	102	bbq_ckn_s	1	01/02/2015	17:54:04	12.75	12.75	S	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+240	102	prsc_argla_s	1	01/02/2015	17:54:04	12.5	12.5	S	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza			
+241	103	spinach_supr_s	1	01/02/2015	18:02:09	12.5	12.5	S	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza			
+242	104	bbq_ckn_m	1	01/02/2015	18:02:12	16.75	16.75	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+243	104	ckn_alfredo_m	1	01/02/2015	18:02:12	16.75	16.75	M	Chicken	Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce	The Chicken Alfredo Pizza			
+244	104	ital_veggie_m	1	01/02/2015	18:02:12	16.75	16.75	M	Veggie	Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce	The Italian Vegetables Pizza			
+245	104	veggie_veg_l	1	01/02/2015	18:02:12	20.25	20.25	L	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza			
+246	105	hawaiian_s	2	01/02/2015	18:12:01	10.5	21	S	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+247	105	pepperoni_l	1	01/02/2015	18:12:01	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+248	105	prsc_argla_m	1	01/02/2015	18:12:01	16.5	16.5	M	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza			
+249	106	mexicana_l	1	01/02/2015	18:12:13	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+250	106	spicy_ital_l	1	01/02/2015	18:12:13	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+251	107	cali_ckn_l	1	01/02/2015	18:25:09	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+252	107	ital_supr_m	1	01/02/2015	18:25:09	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+253	107	spicy_ital_l	1	01/02/2015	18:25:09	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+254	107	veggie_veg_l	1	01/02/2015	18:25:09	20.25	20.25	L	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza			
+255	108	classic_dlx_l	1	01/02/2015	18:25:25	20.5	20.5	L	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+256	108	hawaiian_l	1	01/02/2015	18:25:25	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+257	108	spinach_supr_l	1	01/02/2015	18:25:25	20.75	20.75	L	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza			
+258	109	ital_cpcllo_l	1	01/02/2015	18:27:50	20.5	20.5	L	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+259	109	ital_supr_l	1	01/02/2015	18:27:50	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+260	109	pepperoni_m	1	01/02/2015	18:27:50	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+261	109	prsc_argla_l	1	01/02/2015	18:27:50	20.75	20.75	L	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza			
+262	110	big_meat_s	1	01/02/2015	18:36:19	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+263	110	napolitana_l	1	01/02/2015	18:36:19	20.5	20.5	L	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza			
+264	110	soppressata_l	1	01/02/2015	18:36:19	20.75	20.75	L	Supreme	Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic	The Soppressata Pizza			
+265	110	spicy_ital_s	1	01/02/2015	18:36:19	12.5	12.5	S	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+266	111	cali_ckn_m	1	01/02/2015	18:38:01	16.75	16.75	M	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+267	111	five_cheese_l	1	01/02/2015	18:38:01	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+268	111	pepperoni_m	1	01/02/2015	18:38:01	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+269	111	spin_pesto_l	1	01/02/2015	18:38:01	20.75	20.75	L	Veggie	Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce	The Spinach Pesto Pizza			
+270	112	pepperoni_s	1	01/02/2015	18:41:40	9.75	9.75	S	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+271	113	cali_ckn_l	1	01/02/2015	18:50:21	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+272	113	mexicana_l	1	01/02/2015	18:50:21	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+273	113	southw_ckn_m	1	01/02/2015	18:50:21	16.75	16.75	M	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+274	114	pepperoni_l	1	01/02/2015	18:59:32	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+275	114	sicilian_s	1	01/02/2015	18:59:32	12.25	12.25	S	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza			
+276	115	big_meat_s	1	01/02/2015	19:05:17	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+277	115	napolitana_l	1	01/02/2015	19:05:17	20.5	20.5	L	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza			
+278	115	thai_ckn_m	1	01/02/2015	19:05:17	16.75	16.75	M	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+279	116	five_cheese_l	1	01/02/2015	19:18:49	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+280	117	peppr_salami_m	1	01/02/2015	19:23:02	16.5	16.5	M	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza			
+281	117	sicilian_l	1	01/02/2015	19:23:02	20.25	20.25	L	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza			
+282	118	prsc_argla_l	1	01/02/2015	19:26:59	20.75	20.75	L	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza			
+283	118	spinach_fet_s	1	01/02/2015	19:26:59	12	12	S	Veggie	Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic	The Spinach and Feta Pizza			
+284	119	four_cheese_m	1	01/02/2015	19:32:29	14.75	14.75	M	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza			
+285	120	classic_dlx_s	1	01/02/2015	19:35:07	12	12	S	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+286	120	hawaiian_s	1	01/02/2015	19:35:07	10.5	10.5	S	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+287	120	spinach_fet_l	1	01/02/2015	19:35:07	20.25	20.25	L	Veggie	Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic	The Spinach and Feta Pizza			
+288	121	bbq_ckn_m	1	01/02/2015	19:38:48	16.75	16.75	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+289	121	four_cheese_l	1	01/02/2015	19:38:48	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza			
+290	121	sicilian_l	1	01/02/2015	19:38:48	20.25	20.25	L	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza			
+291	121	southw_ckn_l	1	01/02/2015	19:38:48	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+292	122	ital_supr_m	1	01/02/2015	19:50:19	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+293	123	ital_cpcllo_s	1	01/02/2015	20:12:09	12	12	S	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+294	124	bbq_ckn_s	1	01/02/2015	20:12:34	12.75	12.75	S	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+295	124	sicilian_l	1	01/02/2015	20:12:34	20.25	20.25	L	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza			
+296	124	spicy_ital_l	1	01/02/2015	20:12:34	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+297	124	the_greek_s	1	01/02/2015	20:12:34	12	12	S	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza			
+298	125	the_greek_xl	1	01/02/2015	20:31:06	25.5	25.5	XL	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza			
+299	126	veggie_veg_l	1	01/02/2015	20:53:42	20.25	20.25	L	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza			
+300	127	pepperoni_m	1	01/02/2015	20:58:23	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+301	128	spicy_ital_s	1	01/02/2015	21:05:06	12.5	12.5	S	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+302	129	big_meat_s	1	01/02/2015	21:13:02	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+303	129	the_greek_m	1	01/02/2015	21:13:02	16	16	M	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza			
+304	130	hawaiian_s	1	01/02/2015	21:14:55	10.5	10.5	S	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+305	130	ital_cpcllo_l	1	01/02/2015	21:14:55	20.5	20.5	L	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+306	130	mexicana_m	1	01/02/2015	21:14:55	16	16	M	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+307	130	southw_ckn_s	1	01/02/2015	21:14:55	12.75	12.75	S	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+308	131	ckn_pesto_l	1	01/02/2015	21:33:10	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce	The Chicken Pesto Pizza			
+309	131	five_cheese_l	1	01/02/2015	21:33:10	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+310	131	green_garden_s	1	01/02/2015	21:33:10	12	12	S	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza			
+311	131	spinach_supr_s	1	01/02/2015	21:33:10	12.5	12.5	S	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza			
+312	132	pepperoni_s	1	01/02/2015	21:42:45	9.75	9.75	S	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+313	133	bbq_ckn_l	1	01/02/2015	22:00:17	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+314	133	hawaiian_l	1	01/02/2015	22:00:17	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+315	133	the_greek_s	1	01/02/2015	22:00:17	12	12	S	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza			
+316	134	big_meat_s	1	01/02/2015	22:13:24	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+317	134	southw_ckn_l	1	01/02/2015	22:13:24	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+318	134	spinach_supr_s	1	01/02/2015	22:13:24	12.5	12.5	S	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza			
+319	135	veggie_veg_l	1	01/02/2015	22:29:34	20.25	20.25	L	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza			
+320	136	five_cheese_l	1	01/02/2015	22:32:49	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+321	136	peppr_salami_s	1	01/02/2015	22:32:49	12.5	12.5	S	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza			
+322	137	mediterraneo_l	1	01/03/2015	11:34:10	20.25	20.25	L	Veggie	Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions	The Mediterranean Pizza			
+323	137	pepperoni_s	1	01/03/2015	11:34:10	9.75	9.75	S	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+324	137	spicy_ital_m	1	01/03/2015	11:34:10	16.5	16.5	M	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+325	138	cali_ckn_m	1	01/03/2015	11:44:50	16.75	16.75	M	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+326	138	four_cheese_l	1	01/03/2015	11:44:50	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza			
+327	138	ital_veggie_l	1	01/03/2015	11:44:50	21	21	L	Veggie	Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce	The Italian Vegetables Pizza			
+328	138	sicilian_m	1	01/03/2015	11:44:50	16.25	16.25	M	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza			
+329	139	five_cheese_l	1	01/03/2015	11:57:39	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+330	140	prsc_argla_s	1	01/03/2015	12:26:44	12.5	12.5	S	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza			
+331	140	veggie_veg_m	1	01/03/2015	12:26:44	16	16	M	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza			
+332	141	classic_dlx_m	1	01/03/2015	13:16:01	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+333	142	green_garden_m	1	01/03/2015	13:33:59	16	16	M	Veggie	Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese	The Green Garden Pizza			
+334	143	cali_ckn_s	1	01/03/2015	13:41:36	12.75	12.75	S	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+335	143	classic_dlx_s	1	01/03/2015	13:41:36	12	12	S	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+336	143	hawaiian_l	1	01/03/2015	13:41:36	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+337	143	mexicana_m	1	01/03/2015	13:41:36	16	16	M	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+338	143	pepperoni_l	1	01/03/2015	13:41:36	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+339	143	prsc_argla_s	1	01/03/2015	13:41:36	12.5	12.5	S	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza			
+340	143	thai_ckn_l	1	01/03/2015	13:41:36	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+341	143	veggie_veg_m	1	01/03/2015	13:41:36	16	16	M	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza			
+342	144	bbq_ckn_m	3	01/03/2015	13:44:28	16.75	50.25	M	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+343	144	big_meat_s	1	01/03/2015	13:44:28	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+344	144	cali_ckn_l	1	01/03/2015	13:44:28	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+345	144	ckn_pesto_m	1	01/03/2015	13:44:28	16.75	16.75	M	Chicken	Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce	The Chicken Pesto Pizza			
+346	144	five_cheese_l	1	01/03/2015	13:44:28	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+347	144	four_cheese_l	1	01/03/2015	13:44:28	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza			
+348	144	pep_msh_pep_s	1	01/03/2015	13:44:28	11	11	S	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza			
+349	144	southw_ckn_l	1	01/03/2015	13:44:28	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+350	144	southw_ckn_s	1	01/03/2015	13:44:28	12.75	12.75	S	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+351	144	spicy_ital_l	1	01/03/2015	13:44:28	20.75	20.75	L	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+352	144	thai_ckn_m	1	01/03/2015	13:44:28	16.75	16.75	M	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+353	144	veggie_veg_l	1	01/03/2015	13:44:28	20.25	20.25	L	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza			
+354	145	the_greek_s	1	01/03/2015	13:53:48	12	12	S	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza			
+355	146	cali_ckn_l	1	01/03/2015	14:22:10	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+356	146	four_cheese_m	1	01/03/2015	14:22:10	14.75	14.75	M	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza			
+357	146	hawaiian_m	1	01/03/2015	14:22:10	13.25	13.25	M	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+358	147	the_greek_xl	1	01/03/2015	14:32:51	25.5	25.5	XL	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza			
+359	148	mediterraneo_s	1	01/03/2015	14:40:42	12	12	S	Veggie	Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions	The Mediterranean Pizza			
+360	149	spinach_fet_m	1	01/03/2015	14:48:45	16	16	M	Veggie	Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic	The Spinach and Feta Pizza			
+361	150	pepperoni_m	1	01/03/2015	14:49:58	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+362	151	southw_ckn_l	1	01/03/2015	15:09:34	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+363	151	spinach_supr_s	1	01/03/2015	15:09:34	12.5	12.5	S	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza			
+364	152	hawaiian_s	1	01/03/2015	15:09:42	10.5	10.5	S	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+365	152	spinach_fet_l	1	01/03/2015	15:09:42	20.25	20.25	L	Veggie	Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic	The Spinach and Feta Pizza			
+366	152	thai_ckn_s	1	01/03/2015	15:09:42	12.75	12.75	S	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+367	152	the_greek_m	1	01/03/2015	15:09:42	16	16	M	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza			
+368	153	mexicana_m	1	01/03/2015	15:16:34	16	16	M	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+369	154	prsc_argla_s	1	01/03/2015	15:22:43	12.5	12.5	S	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza			
+370	155	ckn_pesto_s	1	01/03/2015	15:28:59	12.75	12.75	S	Chicken	Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce	The Chicken Pesto Pizza			
+371	155	napolitana_l	1	01/03/2015	15:28:59	20.5	20.5	L	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza			
+372	155	pepperoni_l	1	01/03/2015	15:28:59	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+373	155	peppr_salami_l	1	01/03/2015	15:28:59	20.75	20.75	L	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza			
+374	156	napolitana_m	1	01/03/2015	15:42:19	16	16	M	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza			
+375	156	thai_ckn_l	1	01/03/2015	15:42:19	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+376	157	ital_supr_l	1	01/03/2015	15:43:03	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+377	157	mediterraneo_m	1	01/03/2015	15:43:03	16	16	M	Veggie	Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions	The Mediterranean Pizza			
+378	157	sicilian_m	1	01/03/2015	15:43:03	16.25	16.25	M	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza			
+379	157	spin_pesto_m	1	01/03/2015	15:43:03	16.5	16.5	M	Veggie	Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce	The Spinach Pesto Pizza			
+380	158	ital_veggie_m	1	01/03/2015	15:54:30	16.75	16.75	M	Veggie	Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce	The Italian Vegetables Pizza			
+381	158	thai_ckn_m	1	01/03/2015	15:54:30	16.75	16.75	M	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+382	159	four_cheese_l	1	01/03/2015	15:59:22	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza			
+383	159	thai_ckn_m	1	01/03/2015	15:59:22	16.75	16.75	M	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+384	160	classic_dlx_m	1	01/03/2015	16:35:33	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+385	161	hawaiian_s	1	01/03/2015	16:43:46	10.5	10.5	S	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+386	161	spicy_ital_m	1	01/03/2015	16:43:46	16.5	16.5	M	Supreme	Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic	The Spicy Italian Pizza			
+387	161	the_greek_xl	1	01/03/2015	16:43:46	25.5	25.5	XL	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza			
+388	162	big_meat_s	1	01/03/2015	16:51:22	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+389	163	hawaiian_m	1	01/03/2015	16:54:54	13.25	13.25	M	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+390	163	pepperoni_l	1	01/03/2015	16:54:54	15.25	15.25	L	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+391	163	the_greek_m	1	01/03/2015	16:54:54	16	16	M	Classic	Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions	The Greek Pizza			
+392	164	cali_ckn_l	1	01/03/2015	16:56:33	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+393	164	pepperoni_m	1	01/03/2015	16:56:33	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+394	165	prsc_argla_m	1	01/03/2015	16:57:37	16.5	16.5	M	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza			
+395	166	prsc_argla_s	1	01/03/2015	16:58:51	12.5	12.5	S	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza			
+396	167	bbq_ckn_l	1	01/03/2015	17:00:49	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+397	167	ital_supr_m	1	01/03/2015	17:00:49	16.5	16.5	M	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+398	167	pepperoni_m	1	01/03/2015	17:00:49	12.5	12.5	M	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+399	168	big_meat_s	1	01/03/2015	17:02:27	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+400	168	veggie_veg_m	1	01/03/2015	17:02:27	16	16	M	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza			
+401	169	four_cheese_l	1	01/03/2015	17:15:48	17.95	17.95	L	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza			
+402	169	ital_cpcllo_s	1	01/03/2015	17:15:48	12	12	S	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+403	169	sicilian_m	1	01/03/2015	17:15:48	16.25	16.25	M	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza			
+404	170	hawaiian_l	1	01/03/2015	17:21:31	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+405	171	napolitana_m	1	01/03/2015	17:23:03	16	16	M	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza			
+406	172	napolitana_s	1	01/03/2015	17:29:24	12	12	S	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza			
+407	172	spinach_supr_m	1	01/03/2015	17:29:24	16.5	16.5	M	Supreme	Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese	The Spinach Supreme Pizza			
+408	172	thai_ckn_l	1	01/03/2015	17:29:24	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+409	173	cali_ckn_m	1	01/03/2015	17:35:30	16.75	16.75	M	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+410	173	classic_dlx_m	1	01/03/2015	17:35:30	16	16	M	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+411	173	veggie_veg_l	1	01/03/2015	17:35:30	20.25	20.25	L	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza			
+412	174	big_meat_s	1	01/03/2015	17:37:49	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+413	174	cali_ckn_l	1	01/03/2015	17:37:49	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+414	174	cali_ckn_m	1	01/03/2015	17:37:49	16.75	16.75	M	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+415	174	ital_cpcllo_m	1	01/03/2015	17:37:49	16	16	M	Classic	Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano	The Italian Capocollo Pizza			
+416	175	ital_supr_l	1	01/03/2015	17:50:51	20.75	20.75	L	Supreme	Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic	The Italian Supreme Pizza			
+417	176	cali_ckn_l	1	01/03/2015	17:51:57	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+418	176	peppr_salami_m	1	01/03/2015	17:51:57	16.5	16.5	M	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza			
+419	177	napolitana_s	1	01/03/2015	17:54:36	12	12	S	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza			
+420	177	thai_ckn_l	1	01/03/2015	17:54:36	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+421	178	peppr_salami_l	1	01/03/2015	18:15:03	20.75	20.75	L	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza			
+422	179	hawaiian_l	1	01/03/2015	18:20:14	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+423	179	sicilian_m	1	01/03/2015	18:20:14	16.25	16.25	M	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza			
+424	179	veggie_veg_s	1	01/03/2015	18:20:14	12	12	S	Veggie	Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic	The Vegetables + Vegetables Pizza			
+425	180	classic_dlx_l	1	01/03/2015	18:33:34	20.5	20.5	L	Classic	Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon	The Classic Deluxe Pizza			
+426	180	prsc_argla_l	1	01/03/2015	18:33:34	20.75	20.75	L	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza			
+427	181	mexicana_l	1	01/03/2015	18:49:32	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+428	182	brie_carre_s	1	01/03/2015	18:50:10	23.65	23.65	S	Supreme	Brie Carre Cheese, Prosciutto, Caramelized Onions, Pears, Thyme, Garlic	The Brie Carre Pizza			
+429	182	peppr_salami_l	1	01/03/2015	18:50:10	20.75	20.75	L	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza			
+430	183	napolitana_m	1	01/03/2015	18:54:55	16	16	M	Classic	Tomatoes, Anchovies, Green Olives, Red Onions, Garlic	The Napolitana Pizza			
+431	183	spin_pesto_l	1	01/03/2015	18:54:55	20.75	20.75	L	Veggie	Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce	The Spinach Pesto Pizza			
+432	183	spin_pesto_s	1	01/03/2015	18:54:55	12.5	12.5	S	Veggie	Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce	The Spinach Pesto Pizza			
+433	184	hawaiian_l	1	01/03/2015	18:59:05	16.5	16.5	L	Classic	Sliced Ham, Pineapple, Mozzarella Cheese	The Hawaiian Pizza			
+434	185	sicilian_m	1	01/03/2015	19:08:33	16.25	16.25	M	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza			
+435	185	spin_pesto_s	1	01/03/2015	19:08:33	12.5	12.5	S	Veggie	Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce	The Spinach Pesto Pizza			
+436	186	mexicana_l	1	01/03/2015	19:36	20.25	20.25	L	Veggie	Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic	The Mexicana Pizza			
+437	186	southw_ckn_l	1	01/03/2015	19:36	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+438	186	spin_pesto_l	1	01/03/2015	19:36	20.75	20.75	L	Veggie	Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce	The Spinach Pesto Pizza			
+439	186	thai_ckn_l	1	01/03/2015	19:36	20.75	20.75	L	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+440	187	five_cheese_l	1	01/03/2015	19:37:12	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+441	187	spin_pesto_l	1	01/03/2015	19:37:12	20.75	20.75	L	Veggie	Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce	The Spinach Pesto Pizza			
+442	188	five_cheese_l	1	01/03/2015	20:08:39	18.5	18.5	L	Veggie	Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic	The Five Cheese Pizza			
+443	188	pepperoni_s	1	01/03/2015	20:08:39	9.75	9.75	S	Classic	Mozzarella Cheese, Pepperoni	The Pepperoni Pizza			
+444	188	peppr_salami_l	1	01/03/2015	20:08:39	20.75	20.75	L	Supreme	Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic	The Pepper Salami Pizza			
+445	189	big_meat_s	2	01/03/2015	20:12:14	12	24	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+446	189	thai_ckn_s	1	01/03/2015	20:12:14	12.75	12.75	S	Chicken	Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce	The Thai Chicken Pizza			
+447	190	bbq_ckn_l	1	01/03/2015	20:14:23	20.75	20.75	L	Chicken	Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce	The Barbecue Chicken Pizza			
+448	190	four_cheese_m	1	01/03/2015	20:14:23	14.75	14.75	M	Veggie	Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic	The Four Cheese Pizza			
+449	190	pep_msh_pep_s	1	01/03/2015	20:14:23	11	11	S	Classic	Pepperoni, Mushrooms, Green Peppers	The Pepperoni, Mushroom, and Peppers Pizza			
+450	190	prsc_argla_l	1	01/03/2015	20:14:23	20.75	20.75	L	Supreme	Prosciutto di San Daniele, Arugula, Mozzarella Cheese	The Prosciutto and Arugula Pizza			
+451	191	cali_ckn_l	1	01/03/2015	20:24:50	20.75	20.75	L	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+452	191	ckn_alfredo_m	1	01/03/2015	20:24:50	16.75	16.75	M	Chicken	Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce	The Chicken Alfredo Pizza			
+453	192	sicilian_s	1	01/03/2015	20:30:08	12.25	12.25	S	Supreme	Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic	The Sicilian Pizza			
+454	192	southw_ckn_l	1	01/03/2015	20:30:08	20.75	20.75	L	Chicken	Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce	The Southwest Chicken Pizza			
+455	193	big_meat_s	1	01/03/2015	20:55:47	12	12	S	Classic	Bacon, Pepperoni, Italian Sausage, Chorizo Sausage	The Big Meat Pizza			
+456	193	cali_ckn_m	1	01/03/2015	20:55:47	16.75	16.75	M	Chicken	Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese	The California Chicken Pizza			
+457	193	ckn_alfredo_l	2	01/03/2015	20:55:47	20.75	41.5	L	Chicken	Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce	The Chicken Alfredo Pizza			
