@@ -37,7 +37,7 @@ Node *createTree()
 }
 
 // Preorder
-//  LNR
+//  NLR
 
 void preorder(Node *root)
 {
