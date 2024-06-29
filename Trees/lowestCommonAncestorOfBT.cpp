@@ -41,6 +41,7 @@ int main()
     root1->left->left = new Node(4);
     root1->left->right = new Node(5);
     root1->left->left->left = new Node(7);
+
     //     Tree:
     //       1
     //      / \
@@ -49,6 +50,7 @@ int main()
     //   4   5
     //  /
     // 7
+
     int p = 4;
     int q = 5;
     cout << "Lowest common ancestor of " << p << " & " << q << " is ";
