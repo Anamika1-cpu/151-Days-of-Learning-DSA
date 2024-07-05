@@ -46,17 +46,17 @@ bool hasPathSum(Node *root, int targetSum)
 
 int main()
 {
-    Node *root1 = new Node(1);
-    root1->left = new Node(2);
-    root1->right = new Node(3);
-    root1->left->left = new Node(4);
-    root1->left->right = new Node(5);
+    Node *root1 = new Node(5);
+    root1->left = new Node(1);
+    root1->right = new Node(1);
+    root1->left->left = new Node(2);
+    root1->left->right = new Node(2);
     //     Tree:
-    //       1
-    //      / \
-    //     2   3
-    //    / \
-    //   4   5
+    //      5
+    //    /   \
+    //   1     1
+    //  /       \
+    // 2         2
 
     int targetSum = 9;
     bool ans = hasPathSum(root1, targetSum);
