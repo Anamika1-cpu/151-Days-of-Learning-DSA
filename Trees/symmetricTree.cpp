@@ -16,23 +16,6 @@ public:
     }
 };
 
-// bool isMirror(Node *p, Node *q)
-// {
-//     if (!p && !q)
-//         return true;
-//     if (p && q)
-//     {
-//         return (p->data == q->data) &&
-//                isMirror(p->left, q->right) &&
-//                isMirror(p->right, q->left);
-//     }
-//     return false;
-// }
-// bool isSymmetric(Node *root)
-// {
-//     return isMirror(root->left, root->right);
-// }
-
 bool isMirror(Node *p, Node *q)
 {
     if (!p && !q)
@@ -55,16 +38,17 @@ int main()
     root1->left = new Node(1);
     root1->right = new Node(1);
     root1->left->left = new Node(2);
-    root1->left->left->right = new Node(3);
-    root1->left->right = new Node(2);
+    root1->left->right = new Node(3);
+    root1->right->right = new Node(2);
+    root1->right->left = new Node(3);
     //     Tree:
     //      5
     //    /   \
     //   1     1
-    //  /       \
-    // 2         2
+    //  / \   / \
+    // 2   3 3   2
     bool ans = isSymmetric(root1);
     cout << ans;
 
-    // return 0;
+    return 0;
 }
