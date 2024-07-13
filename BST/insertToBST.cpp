@@ -25,10 +25,12 @@ Node *insertToBST(Node *root, int data)
     }
     if (data > root->data)
     {
+        // attaching node to the right side of subtree
         root->right = insertToBST(root->right, data);
     }
     else
     {
+        // attaching node to the left side of subtree
         root->left = insertToBST(root->left, data);
     }
     return root;
