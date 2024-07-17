@@ -15,6 +15,7 @@ public:
         this->right = NULL;
     }
 };
+
 Node *minValue(Node *root)
 {
     if (root == NULL)
