@@ -53,12 +53,12 @@ bool isBST(Node *root)
         return false;
     }
     // min of right is less than root
-    else if (root->right != NULL && minValue(root->left) <= root->data)
+    else if (root->right != NULL && minValue(root->right) <= root->data)
     {
         return false;
     }
     // if one of the subtree is not bst
-    else if (isBST(root->left) == false || isBST(root->right) == false)
+    else if (!isBST(root->left) || !isBST(root->right))
     {
         return false;
     }
