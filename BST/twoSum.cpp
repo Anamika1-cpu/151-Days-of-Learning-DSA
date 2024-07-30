@@ -15,6 +15,10 @@ public:
         this->right = NULL;
     }
 };
+// Approach: We will store the bst in array using inorder
+// traversal, So that the elemenst of array are sorted
+//  and then we will use 2 ptr approach to find the pair
+
 void storeInorder(Node *root, vector<int> &inorder)
 {
     // Base case

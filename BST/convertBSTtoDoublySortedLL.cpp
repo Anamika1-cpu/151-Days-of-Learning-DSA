@@ -36,6 +36,16 @@ void convertBSTtoDLL(Node *root, Node *&head)
     // L
     convertBSTtoDLL(root->left, head);
 }
+void printDLL(Node *head)
+{
+    Node *current = head;
+    while (current != NULL)
+    {
+        cout << current->data << "<-> ";
+        current = current->right;
+    }
+    cout << endl;
+}
 int main()
 {
     Node *root = new Node(10);
@@ -51,6 +61,8 @@ int main()
     //   8     12
     //  / \   / \
     // 2   9 11   15
-
+    Node *head = NULL;
+    convertBSTtoDLL(root, head);
+    printDLL(head);
     return 0;
 }
