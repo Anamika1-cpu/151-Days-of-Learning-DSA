@@ -15,36 +15,32 @@ public:
         this->right = NULL;
     }
 };
+/*The approach to find inorder successor here is that
+we are using the property of bst that left Subtree
+of BST is smaller than root and greater than right.*/
 
-void convertBSTtoDLL(Node *root, Node *&head)
+Node *inorderSuccessor(Node *root, Node *x)
 {
-    if (root == NULL)
+    Node *succ = 0;
+    Node *curr = root;
+
+    while (curr != NULL)
     {
-        return;
+        if (curr->data > x->data)
+        {
+            succ = curr;
+            curr = curr->left;
+        }
+        else
+        {
+            curr = curr->right;
+        }
     }
-    // RNL
-    // R
-    convertBSTtoDLL(root->right, head);
-    // N
-    root->right = head;
-    if (head != NULL)
-        head->left = root;
-    head = root;
-    // L
-    convertBSTtoDLL(root->left, head);
-}
-void printDLL(Node *head)
-{
-    Node *current = head;
-    while (current != NULL)
-    {
-        cout << current->data << "<-> ";
-        current = current->right;
-    }
-    cout << endl;
+    return succ;
 }
 int main()
 {
+
     Node *root = new Node(10);
     root->left = new Node(8);
     root->right = new Node(12);
@@ -58,8 +54,8 @@ int main()
     //   8     12
     //  / \   / \
     // 2   9 11   15
-    Node *head = NULL;
-    convertBSTtoDLL(root, head);
-    printDLL(head);
+    Node *a = new Node(10);
+    Node *ans = inorderSuccessor(root, root->right);
+    cout << ans->data << endl;
     return 0;
 }
